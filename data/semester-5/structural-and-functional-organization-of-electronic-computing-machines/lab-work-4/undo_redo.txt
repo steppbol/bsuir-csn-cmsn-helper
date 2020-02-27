@@ -1,0 +1,623 @@
+MED
+D:\lab4\ROM.hex
+
+	Undo Commands
+	     1.	Cells
+	     2.	Cells
+	     3.	Cells
+	     4.	Cells
+	     5.	Change Memory Radix
+	     6.	Change Address Radix
+
+
+MED
+D:\lab4\RAM.hex
+
+	Undo Commands
+	     1.	Cells
+	     2.	Cells
+	     3.	Cells
+	     4.	Cells
+	     5.	Cells
+	     6.	Cells
+	     7.	Cells
+	     8.	Cells
+	     9.	Cells
+	    10.	Cells
+	    11.	Cells
+	    12.	Cells
+	    13.	Cells
+	    14.	Cells
+	    15.	Cells
+	    16.	Change Memory Radix
+	    17.	Change Address Radix
+
+
+GED
+
+	Undo Commands
+	     1.	Delete
+	     2.	Insert Node
+	     3.	Move
+	     4.	Move
+	     5.	Delete
+	     6.	Insert Node
+	     7.	Insert Node
+	     8.	Move
+	     9.	Move
+	    10.	Resize
+	    11.	Move
+	    12.	Paste
+	    13.	Delete
+	    14.	Delete
+	    15.	Insert Node
+	    16.	Move
+	    17.	Move
+	    18.	Paste
+	    19.	Delete
+	    20.	Move
+	    21.	Move
+	    22.	Move
+	    23.	Insert Node
+	    24.	Resize
+	    25.	Resize
+	    26.	Resize
+	    27.	Insert Node
+	    28.	Resize
+	    29.	Insert Node
+	    30.	Resize
+	    31.	Move
+	    32.	Move
+	    33.	Insert Node
+	    34.	Resize
+	    35.	Move
+	    36.	Resize
+	    37.	Move
+	    38.	Move
+	    39.	Paste
+	    40.	Delete Insert
+	    41.	Move
+	    42.	Move
+	    43.	Move
+	    44.	Move
+	    45.	Copy
+	    46.	Paste
+	    47.	Delete
+	    48.	Move
+	    49.	Move
+	    50.	Move
+	    51.	Insert Node
+	    52.	Insert Symbol
+	    53.	Insert Symbol
+	    54.	Move
+	    55.	Resize
+	    56.	Resize
+	    57.	Insert Node
+	    58.	Resize
+	    59.	Move
+	    60.	Delete Insert
+	    61.	Move
+	    62.	Delete Insert
+	    63.	Rotate 90
+	    64.	Insert Symbol
+	    65.	Insert Node
+	    66.	Move
+	    67.	Move
+	    68.	Move
+	    69.	Move
+	    70.	Move
+	    71.	Move
+	    72.	Move
+	    73.	Move
+	    74.	Move
+	    75.	Move
+	    76.	Move
+	    77.	Move
+	    78.	Move
+	    79.	Move
+	    80.	Move
+	    81.	Move
+	    82.	Move
+	    83.	Move
+	    84.	Move
+	    85.	Move
+	    86.	Move
+	    87.	Move
+	    88.	Move
+	    89.	Move
+	    90.	Move
+	    91.	Move
+	    92.	Move
+	    93.	Move
+	    94.	Move
+	    95.	Move
+	    96.	Move
+	    97.	Move
+	    98.	Move
+	    99.	Move
+	   100.	Resize
+
+
+WED
+
+	Undo Commands
+	     1.	Clock
+	     2.	Insert Node or Bus
+	     3.	Insert Node or Bus
+	     4.	Clock
+	     5.	Insert Node or Bus
+	     6.	Edit Waveform
+	     7.	Clock
+	     8.	Clock
+	     9.	Insert Node or Bus
+	    10.	Clock
+	    11.	Insert Node or Bus
+	    12.	Delete Node, Bus or Waveform Divider
+	    13.	Clock
+	    14.	Insert Node or Bus
+	    15.	Delete Node, Bus or Waveform Divider
+	    16.	Insert Node or Bus
+	    17.	Clock
+	    18.	Insert Node or Bus
+	    19.	Delete Node, Bus or Waveform Divider
+	    20.	Clock
+	    21.	Clock
+	    22.	Insert Node or Bus
+	    23.	Delete Node, Bus or Waveform Divider
+	    24.	Insert Node or Bus
+	    25.	Delete Node, Bus or Waveform Divider
+	    26.	Clock
+	    27.	Insert Node or Bus
+	    28.	Delete Node, Bus or Waveform Divider
+	    29.	Insert Node or Bus
+	    30.	Insert Node or Bus
+
+
+GED
+
+	Undo Commands
+	     1.	Insert Node
+	     2.	Insert Node
+	     3.	Insert Node
+	     4.	Insert Node
+	     5.	Insert Node
+	     6.	Move
+	     7.	Properties
+	     8.	Insert Symbol
+	     9.	Move
+	    10.	Move
+	    11.	Move
+	    12.	Move
+	    13.	Move
+	    14.	Move
+	    15.	Copy
+	    16.	Delete Insert
+	    17.	Move
+	    18.	Move
+	    19.	Move
+	    20.	Move
+	    21.	Move
+	    22.	Move
+	    23.	Copy
+	    24.	Delete Insert
+	    25.	Move
+	    26.	Move
+	    27.	Copy
+	    28.	Resize
+	    29.	Delete Insert
+	    30.	Delete
+	    31.	Insert Node
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Move
+	    36.	Delete Insert
+	    37.	Move
+	    38.	Insert Symbol
+
+
+GED
+
+	Undo Commands
+	     1.	Resize
+	     2.	Delete Insert
+	     3.	Delete
+	     4.	Delete
+	     5.	Delete
+	     6.	Delete
+	     7.	Delete
+	     8.	Delete
+	     9.	Move
+	    10.	Paste
+	    11.	Delete
+	    12.	Properties
+	    13.	Resize
+	    14.	Delete
+	    15.	Move
+	    16.	Insert Bus
+	    17.	Resize
+	    18.	Delete Insert
+	    19.	Resize
+	    20.	Resize
+	    21.	Insert Node
+	    22.	Insert Node
+	    23.	Move
+	    24.	Move
+	    25.	Delete
+	    26.	Insert Node
+	    27.	Insert Node
+	    28.	Insert Symbol
+	    29.	Resize
+	    30.	Insert Node
+	    31.	Move
+	    32.	Flip Horizontal
+	    33.	Move
+	    34.	Rotate 90
+	    35.	Delete Insert
+	    36.	Insert Symbol
+	    37.	Delete Insert
+	    38.	Delete Insert
+	    39.	Delete
+	    40.	Insert Node
+	    41.	Insert Node
+	    42.	Update Symbol or Block
+	    43.	Move
+	    44.	Move
+	    45.	Move
+	    46.	Move
+	    47.	Insert Node
+	    48.	Resize
+	    49.	Delete Insert
+	    50.	Move
+	    51.	Delete Insert
+	    52.	Update Symbol or Block
+	    53.	Move
+	    54.	Move
+	    55.	Update Symbol or Block
+	    56.	Insert Node
+	    57.	Resize
+	    58.	Move
+	    59.	Delete Insert
+	    60.	Delete
+	    61.	Insert Symbol
+	    62.	Move
+	    63.	Move
+	    64.	Move
+	    65.	Resize
+	    66.	Insert Node
+	    67.	Resize
+	    68.	Insert Node
+	    69.	Insert Symbol
+	    70.	Insert Node
+	    71.	Move
+	    72.	Move
+	    73.	Move
+	    74.	Update Symbol or Block
+	    75.	Move
+	    76.	Move
+	    77.	Move
+	    78.	Move
+	    79.	Move
+	    80.	Update Symbol or Block
+	    81.	Move
+	    82.	Insert Symbol
+	    83.	Delete
+	    84.	Delete Insert
+	    85.	Move
+	    86.	Delete Insert
+	    87.	Move
+	    88.	Insert Symbol
+	    89.	Insert Symbol
+	    90.	Move
+	    91.	Move
+	    92.	Move
+	    93.	Delete
+	    94.	Paste
+	    95.	Resize
+	    96.	Delete
+	    97.	Resize
+	    98.	Resize
+	    99.	Resize
+	   100.	Update Symbol or Block
+
+
+GED
+
+	Undo Commands
+	     1.	Move
+	     2.	Move
+	     3.	Move
+	     4.	Resize
+	     5.	Insert Node
+	     6.	Insert Node
+	     7.	Resize
+	     8.	Resize
+	     9.	Move
+	    10.	Move
+	    11.	Move
+	    12.	Move
+	    13.	Move
+	    14.	Move
+	    15.	Move
+	    16.	Move
+	    17.	Move
+	    18.	Move
+	    19.	Move
+	    20.	Move
+	    21.	Move
+	    22.	Move
+	    23.	Move
+	    24.	Move
+	    25.	Move
+	    26.	Move
+	    27.	Move
+	    28.	Move
+	    29.	Move
+	    30.	Insert Node
+	    31.	Move
+	    32.	Move
+	    33.	Insert Symbol
+	    34.	Insert Node
+	    35.	Copy
+	    36.	Copy
+	    37.	Delete
+	    38.	Delete
+	    39.	Insert Node
+	    40.	Delete Insert
+	    41.	Resize
+	    42.	Delete Insert
+	    43.	Delete
+	    44.	Properties
+	    45.	Insert Node
+	    46.	Copy
+	    47.	Resize
+	    48.	Resize
+	    49.	Delete Insert
+	    50.	Resize
+	    51.	Delete Insert
+	    52.	Delete
+	    53.	Insert Node
+	    54.	Delete
+	    55.	Insert Node
+	    56.	Delete
+	    57.	Resize
+	    58.	Insert Bus
+	    59.	Delete Insert
+	    60.	Update Symbol or Block
+	    61.	Insert Node
+	    62.	Delete Insert
+	    63.	Move
+	    64.	Resize
+	    65.	Insert Node
+	    66.	Resize
+	    67.	Move
+	    68.	Delete Insert
+	    69.	Delete Insert
+	    70.	Insert Symbol
+	    71.	Delete
+	    72.	Insert Node
+	    73.	Delete Insert
+	    74.	Resize
+	    75.	Delete
+	    76.	Update Symbol or Block
+	    77.	Properties
+	    78.	Insert Node
+	    79.	Copy
+	    80.	Properties
+	    81.	Insert Node
+	    82.	Copy
+	    83.	Insert Node
+	    84.	Properties
+	    85.	Copy
+	    86.	Properties
+	    87.	Move
+	    88.	Move
+	    89.	Paste
+	    90.	Delete
+	    91.	Properties
+	    92.	Properties
+	    93.	Paste
+	    94.	Insert Symbol
+	    95.	Properties
+	    96.	Insert Symbol
+	    97.	Insert Symbol
+	    98.	Delete
+	    99.	Paste
+	   100.	Delete
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Copy
+	     4.	Insert Symbol
+	     5.	Insert Node
+	     6.	Properties
+	     7.	Move
+	     8.	Insert Symbol
+	     9.	Paste
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Insert Node
+	     4.	Copy
+	     5.	Insert Node
+	     6.	Move
+	     7.	Flip Vertical
+	     8.	Insert Symbol
+	     9.	Move
+	    10.	Move
+	    11.	Move
+	    12.	Move
+	    13.	Delete Insert
+	    14.	Move
+	    15.	Move
+	    16.	Move
+	    17.	Move
+	    18.	Move
+	    19.	Move
+	    20.	Resize
+	    21.	Move
+	    22.	Move
+	    23.	Move
+	    24.	Move
+	    25.	Move
+	    26.	Move
+	    27.	Move
+	    28.	Move
+	    29.	Insert Node
+	    30.	Properties
+	    31.	Move
+	    32.	Paste
+	    33.	Delete
+	    34.	Properties
+	    35.	Copy
+	    36.	Resize
+	    37.	Resize
+	    38.	Move
+	    39.	Move
+	    40.	Move
+	    41.	Move
+	    42.	Properties
+	    43.	Properties
+	    44.	Insert Symbol
+	    45.	Resize
+	    46.	Resize
+	    47.	Delete
+	    48.	Properties
+	    49.	Move
+	    50.	Move
+	    51.	Copy
+	    52.	Resize
+	    53.	Properties
+	    54.	Move
+	    55.	Move
+	    56.	Move
+	    57.	Move
+	    58.	Move
+	    59.	Move
+	    60.	Move
+	    61.	Insert Symbol
+	    62.	Delete
+	    63.	Delete
+	    64.	Delete
+	    65.	Delete
+	    66.	Move
+	    67.	Delete
+	    68.	Delete
+	    69.	Paste
+
+
+WED
+
+	Undo Commands
+	     1.	Edit Waveform
+	     2.	Clock
+	     3.	Change Time Bars
+	     4.	Change Time Bars
+	     5.	Change Time Bars
+	     6.	Change Time Bars
+	     7.	Change Time Bars
+	     8.	Change Time Bars
+	     9.	Change Time Bars
+	    10.	Change Time Bars
+	    11.	Change Time Bars
+	    12.	Insert Node or Bus
+	    13.	Insert Node or Bus
+	    14.	Clock
+	    15.	Insert Node or Bus
+	    16.	Delete Node, Bus or Waveform Divider
+
+
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Insert Node
+	     3.	Insert Node
+	     4.	Insert Bus
+	     5.	Insert Node
+	     6.	Insert Node
+	     7.	Insert Node
+	     8.	Insert Node
+	     9.	Insert Node
+	    10.	Insert Node
+	    11.	Properties
+	    12.	Properties
+	    13.	Properties
+	    14.	Properties
+	    15.	Properties
+	    16.	Properties
+	    17.	Properties
+	    18.	Properties
+	    19.	Properties
+	    20.	Properties
+	    21.	Properties
+	    22.	Properties
+	    23.	Resize
+	    24.	Insert Node
+	    25.	Insert Node
+	    26.	Insert Node
+	    27.	Insert Node
+	    28.	Insert Node
+	    29.	Insert Node
+	    30.	Delete Insert
+	    31.	Move
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Move
+	    36.	Move
+	    37.	Move
+	    38.	Move
+	    39.	Move
+	    40.	Move
+	    41.	Move
+	    42.	Move
+	    43.	Move
+	    44.	Move
+	    45.	Move
+	    46.	Move
+	    47.	Move
+	    48.	Move
+	    49.	Move
+	    50.	Move
+	    51.	Move
+	    52.	Move
+	    53.	Move
+	    54.	Move
+	    55.	Move
+	    56.	Move
+	    57.	Move
+	    58.	Move
+	    59.	Move
+	    60.	Resize
+	    61.	Copy
+	    62.	Copy
+	    63.	Copy
+	    64.	Copy
+	    65.	Insert Symbol
+	    66.	Resize
+	    67.	Insert Bus
+	    68.	Properties
+	    69.	Insert Symbol
+
+

@@ -1,0 +1,107 @@
+--lpm_counter CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Stratix II" lpm_avalue=1 lpm_direction="UP" lpm_port_updown="PORT_UNUSED" lpm_svalue=1 lpm_width=4 aset clock q sset CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--VERSION_BEGIN 9.1 cbx_cycloneii 2009:10:21:21:22:16:SJ cbx_lpm_add_sub 2009:10:21:21:22:16:SJ cbx_lpm_compare 2009:10:21:21:22:16:SJ cbx_lpm_counter 2009:10:21:21:22:16:SJ cbx_lpm_decode 2009:10:21:21:22:16:SJ cbx_mgl 2009:10:21:21:37:49:SJ cbx_stratix 2009:10:21:21:22:16:SJ cbx_stratixii 2009:10:21:21:22:16:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2009 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+FUNCTION stratixii_lcell_comb (cin, dataa, datab, datac, datad, datae, dataf, datag, sharein)
+WITH ( EXTENDED_LUT, LUT_MASK, SHARED_ARITH)
+RETURNS ( combout, cout, shareout, sumout);
+FUNCTION stratixii_lcell_ff (aclr, adatasdata, aload, clk, datain, ena, sclr, sload)
+WITH ( x_on_violation)
+RETURNS ( regout);
+
+--synthesis_resources = lut 4 reg 4 
+SUBDESIGN cntr_2vk
+( 
+	aset	:	input;
+	clock	:	input;
+	q[3..0]	:	output;
+	sset	:	input;
+) 
+VARIABLE 
+	counter_comb_bita0 : stratixii_lcell_comb
+		WITH (
+			EXTENDED_LUT = "off",
+			LUT_MASK = "000000000000FF00",
+			SHARED_ARITH = "off"
+		);
+	counter_comb_bita1 : stratixii_lcell_comb
+		WITH (
+			EXTENDED_LUT = "off",
+			LUT_MASK = "0000FF000000FF00",
+			SHARED_ARITH = "off"
+		);
+	counter_comb_bita2 : stratixii_lcell_comb
+		WITH (
+			EXTENDED_LUT = "off",
+			LUT_MASK = "0000FF000000FF00",
+			SHARED_ARITH = "off"
+		);
+	counter_comb_bita3 : stratixii_lcell_comb
+		WITH (
+			EXTENDED_LUT = "off",
+			LUT_MASK = "0000FF000000FF00",
+			SHARED_ARITH = "off"
+		);
+	counter_reg_bit1a[3..0] : stratixii_lcell_ff;
+	a_val[3..0]	: WIRE;
+	aclr_actual	: WIRE;
+	clk_en	: NODE;
+	cnt_en	: NODE;
+	data[3..0]	: NODE;
+	external_cin	: WIRE;
+	lsb_cin	: WIRE;
+	s_val[3..0]	: WIRE;
+	safe_q[3..0]	: WIRE;
+	sclr	: NODE;
+	sload	: NODE;
+	sync_data_wire[3..0]	: WIRE;
+	sync_select_wire	: WIRE;
+	updown_dir	: WIRE;
+	updown_lsb	: WIRE;
+	updown_other_bits	: WIRE;
+
+BEGIN 
+	counter_comb_bita[3..0].cin = ( counter_comb_bita[2..0].cout, lsb_cin);
+	counter_comb_bita[3..0].datad = ( counter_reg_bit1a[3..0].regout);
+	counter_comb_bita[3..0].dataf = ( updown_other_bits, updown_other_bits, updown_other_bits, updown_lsb);
+	counter_reg_bit1a[].aclr = aclr_actual;
+	counter_reg_bit1a[].adatasdata = a_val[];
+	counter_reg_bit1a[].aload = aset;
+	counter_reg_bit1a[].clk = clock;
+	counter_reg_bit1a[].datain = ( ((sync_select_wire & sync_data_wire[3..3]) # ((! sync_select_wire) & counter_comb_bita[3].sumout)), ((sync_select_wire & sync_data_wire[2..2]) # ((! sync_select_wire) & counter_comb_bita[2].sumout)), ((sync_select_wire & sync_data_wire[1..1]) # ((! sync_select_wire) & counter_comb_bita[1].sumout)), ((sync_select_wire & sync_data_wire[0..0]) # ((! sync_select_wire) & counter_comb_bita[0].sumout)));
+	counter_reg_bit1a[].ena = (clk_en & (((cnt_en # sclr) # sset) # sload));
+	counter_reg_bit1a[].sclr = sclr;
+	a_val[] = B"0001";
+	aclr_actual = B"0";
+	clk_en = VCC;
+	cnt_en = VCC;
+	data[] = GND;
+	external_cin = B"1";
+	lsb_cin = B"0";
+	q[] = safe_q[];
+	s_val[] = B"0001";
+	safe_q[] = counter_reg_bit1a[].regout;
+	sclr = GND;
+	sload = GND;
+	sync_data_wire[] = ((sset & s_val[]) # ((! sset) & data[]));
+	sync_select_wire = (sset # sload);
+	updown_dir = B"1";
+	updown_lsb = updown_dir;
+	updown_other_bits = ((! external_cin) # updown_dir);
+END;
+--VALID FILE

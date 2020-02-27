@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep 16 18:36:18 2019
+# Process ID: 10636
+# Current directory: D:/Workspace/Vivado/labwork12
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9004 D:\Workspace\Vivado\labwork12\labwork12.xpr
+# Log file: D:/Workspace/Vivado/labwork12/vivado.log
+# Journal file: D:/Workspace/Vivado/labwork12\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Workspace/Vivado/labwork12/labwork12.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source decoder_simulation.tcl
+close_sim

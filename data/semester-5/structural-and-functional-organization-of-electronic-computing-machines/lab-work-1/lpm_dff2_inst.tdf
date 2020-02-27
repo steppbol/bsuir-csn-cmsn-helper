@@ -1,0 +1,10 @@
+(
+	q_sig[]
+) = lpm_dff2	(
+	.aclr = aclr_sig,
+	.clock = clock_sig,
+	.data[] = data_sig[]
+)
+RETURNS (
+	.q[]
+);

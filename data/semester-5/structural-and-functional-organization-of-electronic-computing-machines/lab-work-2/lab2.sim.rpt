@@ -1,0 +1,334 @@
+Simulator report for lab2
+Mon Sep 24 19:14:08 2018
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 110 nodes    ;
+; Simulation Coverage         ;      51.69 % ;
+; Total Number of Transitions ; 1951         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                        ;
++--------------------------------------------------------------------------------------------+--------------+---------------+
+; Option                                                                                     ; Setting      ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------+---------------+
+; Simulation mode                                                                            ; Functional   ; Timing        ;
+; Start time                                                                                 ; 0 ns         ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF         ;               ;
+; Vector input source                                                                        ; FINAL_WF.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On           ; On            ;
+; Check outputs                                                                              ; Off          ; Off           ;
+; Report simulation coverage                                                                 ; On           ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On           ; On            ;
+; Display missing 1-value coverage report                                                    ; On           ; On            ;
+; Display missing 0-value coverage report                                                    ; On           ; On            ;
+; Detect setup and hold time violations                                                      ; Off          ; Off           ;
+; Detect glitches                                                                            ; Off          ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off          ; Off           ;
+; Generate Signal Activity File                                                              ; Off          ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off          ; Off           ;
+; Group bus channels in simulation results                                                   ; Off          ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On           ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE   ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off          ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off          ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto         ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      51.69 % ;
+; Total nodes checked                                 ; 110          ;
+; Total output ports checked                          ; 118          ;
+; Total output ports with complete 1/0-value coverage ; 61           ;
+; Total output ports with no 1/0-value coverage       ; 55           ;
+; Total output ports with no 1-value coverage         ; 55           ;
+; Total output ports with no 0-value coverage         ; 57           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                             ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                               ; Output Port Name                                                                                                           ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+; |FINAL|CLK_MN                                                                                                           ; |FINAL|CLK_MN                                                                                                              ; pin_out          ;
+; |FINAL|CLK                                                                                                              ; |FINAL|CLK                                                                                                                 ; out              ;
+; |FINAL|CLK_DVR                                                                                                          ; |FINAL|CLK_DVR                                                                                                             ; pin_out          ;
+; |FINAL|DCa[2]                                                                                                           ; |FINAL|DCa[2]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[1]                                                                                                           ; |FINAL|DCa[1]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[0]                                                                                                           ; |FINAL|DCa[0]                                                                                                              ; pin_out          ;
+; |FINAL|DCA:inst3|74160:inst6|50                                                                                         ; |FINAL|DCA:inst3|74160:inst6|50                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|32                                                                                         ; |FINAL|DCA:inst3|74154:inst3|32                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|31                                                                                         ; |FINAL|DCA:inst3|74154:inst3|31                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|30                                                                                         ; |FINAL|DCA:inst3|74154:inst3|30                                                                                            ; out0             ;
+; |FINAL|DIVIDER:inst2|inst32                                                                                             ; |FINAL|DIVIDER:inst2|inst32                                                                                                ; regout           ;
+; |FINAL|DIVIDER:inst2|inst24                                                                                             ; |FINAL|DIVIDER:inst2|inst24                                                                                                ; out0             ;
+; |FINAL|DIVIDER:inst2|inst10                                                                                             ; |FINAL|DIVIDER:inst2|inst10                                                                                                ; out              ;
+; |FINAL|DIVIDER:inst2|inst11                                                                                             ; |FINAL|DIVIDER:inst2|inst11                                                                                                ; out              ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[1] ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[1]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[0] ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[0]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|aneb_result_wire[0]   ; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|aneb_result_wire[0]      ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[0]          ; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[0]             ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3   ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[2] ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[2]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[1] ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[1]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[0] ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[0]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_compare2:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|aneb_result_wire[0]   ; |FINAL|DIVIDER:inst2|lpm_compare2:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|aneb_result_wire[0]      ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_compare2:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]          ; |FINAL|DIVIDER:inst2|lpm_compare2:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]             ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_compare2:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[0]          ; |FINAL|DIVIDER:inst2|lpm_compare2:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[0]             ; out0             ;
+; |FINAL|lab2:inst|inst3                                                                                                  ; |FINAL|lab2:inst|inst3                                                                                                     ; regout           ;
+; |FINAL|lab2:inst|inst16                                                                                                 ; |FINAL|lab2:inst|inst16                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst12                                                                                                 ; |FINAL|lab2:inst|inst12                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst14                                                                                                 ; |FINAL|lab2:inst|inst14                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst10                                                                                                 ; |FINAL|lab2:inst|inst10                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst20                                                                                                 ; |FINAL|lab2:inst|inst20                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst11                                                                                                 ; |FINAL|lab2:inst|inst11                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst7                                                                                                  ; |FINAL|lab2:inst|inst7                                                                                                     ; out              ;
+; |FINAL|lab2:inst|inst32                                                                                                 ; |FINAL|lab2:inst|inst32                                                                                                    ; regout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0            ; sumout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0~COUT       ; cout             ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1            ; sumout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1~COUT       ; cout             ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2            ; sumout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2~COUT       ; cout             ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3         ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3            ; sumout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[2]       ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[2]                     ; regout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[1]       ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[1]                     ; regout           ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[0]       ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[0]                     ; regout           ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|aneb_result_wire[0]       ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|aneb_result_wire[0]          ; out0             ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]~0            ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]~0               ; out0             ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]              ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]                 ; out0             ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]~2            ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]~2               ; out0             ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]~3            ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]~3               ; out0             ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]              ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[0]                 ; out0             ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                                                ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                               ; Output Port Name                                                                                                           ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+; |FINAL|M0                                                                                                               ; |FINAL|M0                                                                                                                  ; out              ;
+; |FINAL|M1                                                                                                               ; |FINAL|M1                                                                                                                  ; out              ;
+; |FINAL|M2                                                                                                               ; |FINAL|M2                                                                                                                  ; out              ;
+; |FINAL|M3                                                                                                               ; |FINAL|M3                                                                                                                  ; out              ;
+; |FINAL|N0                                                                                                               ; |FINAL|N0                                                                                                                  ; out              ;
+; |FINAL|N1                                                                                                               ; |FINAL|N1                                                                                                                  ; out              ;
+; |FINAL|N2                                                                                                               ; |FINAL|N2                                                                                                                  ; out              ;
+; |FINAL|N3                                                                                                               ; |FINAL|N3                                                                                                                  ; out              ;
+; |FINAL|DCa[15]                                                                                                          ; |FINAL|DCa[15]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[14]                                                                                                          ; |FINAL|DCa[14]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[13]                                                                                                          ; |FINAL|DCa[13]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[12]                                                                                                          ; |FINAL|DCa[12]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[11]                                                                                                          ; |FINAL|DCa[11]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[10]                                                                                                          ; |FINAL|DCa[10]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[9]                                                                                                           ; |FINAL|DCa[9]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[8]                                                                                                           ; |FINAL|DCa[8]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[7]                                                                                                           ; |FINAL|DCa[7]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[6]                                                                                                           ; |FINAL|DCa[6]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[5]                                                                                                           ; |FINAL|DCa[5]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[4]                                                                                                           ; |FINAL|DCa[4]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[3]                                                                                                           ; |FINAL|DCa[3]                                                                                                              ; pin_out          ;
+; |FINAL|DCA:inst3|74160:inst6|9                                                                                          ; |FINAL|DCA:inst3|74160:inst6|9                                                                                             ; regout           ;
+; |FINAL|DCA:inst3|74160:inst6|13                                                                                         ; |FINAL|DCA:inst3|74160:inst6|13                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|49                                                                                         ; |FINAL|DCA:inst3|74160:inst6|49                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|46                                                                                         ; |FINAL|DCA:inst3|74160:inst6|46                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|8                                                                                          ; |FINAL|DCA:inst3|74160:inst6|8                                                                                             ; regout           ;
+; |FINAL|DCA:inst3|74160:inst6|12                                                                                         ; |FINAL|DCA:inst3|74160:inst6|12                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|28                                                                                         ; |FINAL|DCA:inst3|74160:inst6|28                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|29                                                                                         ; |FINAL|DCA:inst3|74154:inst3|29                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|28                                                                                         ; |FINAL|DCA:inst3|74154:inst3|28                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|27                                                                                         ; |FINAL|DCA:inst3|74154:inst3|27                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|26                                                                                         ; |FINAL|DCA:inst3|74154:inst3|26                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|25                                                                                         ; |FINAL|DCA:inst3|74154:inst3|25                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|24                                                                                         ; |FINAL|DCA:inst3|74154:inst3|24                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|23                                                                                         ; |FINAL|DCA:inst3|74154:inst3|23                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|22                                                                                         ; |FINAL|DCA:inst3|74154:inst3|22                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|21                                                                                         ; |FINAL|DCA:inst3|74154:inst3|21                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|20                                                                                         ; |FINAL|DCA:inst3|74154:inst3|20                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|19                                                                                         ; |FINAL|DCA:inst3|74154:inst3|19                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|18                                                                                         ; |FINAL|DCA:inst3|74154:inst3|18                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|17                                                                                         ; |FINAL|DCA:inst3|74154:inst3|17                                                                                            ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3] ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[2] ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[2]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]          ; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]             ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3] ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]               ; regout           ;
+; |FINAL|lab2:inst|inst22                                                                                                 ; |FINAL|lab2:inst|inst22                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst17                                                                                                 ; |FINAL|lab2:inst|inst17                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst13                                                                                                 ; |FINAL|lab2:inst|inst13                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst21                                                                                                 ; |FINAL|lab2:inst|inst21                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst19                                                                                                 ; |FINAL|lab2:inst|inst19                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst15                                                                                                 ; |FINAL|lab2:inst|inst15                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3]       ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]                     ; regout           ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]~1            ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]~1               ; out0             ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                                                ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                               ; Output Port Name                                                                                                           ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+; |FINAL|M0                                                                                                               ; |FINAL|M0                                                                                                                  ; out              ;
+; |FINAL|M1                                                                                                               ; |FINAL|M1                                                                                                                  ; out              ;
+; |FINAL|M2                                                                                                               ; |FINAL|M2                                                                                                                  ; out              ;
+; |FINAL|M3                                                                                                               ; |FINAL|M3                                                                                                                  ; out              ;
+; |FINAL|N0                                                                                                               ; |FINAL|N0                                                                                                                  ; out              ;
+; |FINAL|N1                                                                                                               ; |FINAL|N1                                                                                                                  ; out              ;
+; |FINAL|N2                                                                                                               ; |FINAL|N2                                                                                                                  ; out              ;
+; |FINAL|N3                                                                                                               ; |FINAL|N3                                                                                                                  ; out              ;
+; |FINAL|DCa[15]                                                                                                          ; |FINAL|DCa[15]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[14]                                                                                                          ; |FINAL|DCa[14]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[13]                                                                                                          ; |FINAL|DCa[13]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[12]                                                                                                          ; |FINAL|DCa[12]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[11]                                                                                                          ; |FINAL|DCa[11]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[10]                                                                                                          ; |FINAL|DCa[10]                                                                                                             ; pin_out          ;
+; |FINAL|DCa[9]                                                                                                           ; |FINAL|DCa[9]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[8]                                                                                                           ; |FINAL|DCa[8]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[7]                                                                                                           ; |FINAL|DCa[7]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[6]                                                                                                           ; |FINAL|DCa[6]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[5]                                                                                                           ; |FINAL|DCa[5]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[4]                                                                                                           ; |FINAL|DCa[4]                                                                                                              ; pin_out          ;
+; |FINAL|DCa[3]                                                                                                           ; |FINAL|DCa[3]                                                                                                              ; pin_out          ;
+; |FINAL|DCA:inst3|74160:inst6|9                                                                                          ; |FINAL|DCA:inst3|74160:inst6|9                                                                                             ; regout           ;
+; |FINAL|DCA:inst3|74160:inst6|13                                                                                         ; |FINAL|DCA:inst3|74160:inst6|13                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|49                                                                                         ; |FINAL|DCA:inst3|74160:inst6|49                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|46                                                                                         ; |FINAL|DCA:inst3|74160:inst6|46                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|8                                                                                          ; |FINAL|DCA:inst3|74160:inst6|8                                                                                             ; regout           ;
+; |FINAL|DCA:inst3|74160:inst6|12                                                                                         ; |FINAL|DCA:inst3|74160:inst6|12                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|28                                                                                         ; |FINAL|DCA:inst3|74160:inst6|28                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74160:inst6|7                                                                                          ; |FINAL|DCA:inst3|74160:inst6|7                                                                                             ; regout           ;
+; |FINAL|DCA:inst3|74160:inst6|11                                                                                         ; |FINAL|DCA:inst3|74160:inst6|11                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|29                                                                                         ; |FINAL|DCA:inst3|74154:inst3|29                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|28                                                                                         ; |FINAL|DCA:inst3|74154:inst3|28                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|27                                                                                         ; |FINAL|DCA:inst3|74154:inst3|27                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|26                                                                                         ; |FINAL|DCA:inst3|74154:inst3|26                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|25                                                                                         ; |FINAL|DCA:inst3|74154:inst3|25                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|24                                                                                         ; |FINAL|DCA:inst3|74154:inst3|24                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|23                                                                                         ; |FINAL|DCA:inst3|74154:inst3|23                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|22                                                                                         ; |FINAL|DCA:inst3|74154:inst3|22                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|21                                                                                         ; |FINAL|DCA:inst3|74154:inst3|21                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|20                                                                                         ; |FINAL|DCA:inst3|74154:inst3|20                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|19                                                                                         ; |FINAL|DCA:inst3|74154:inst3|19                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|18                                                                                         ; |FINAL|DCA:inst3|74154:inst3|18                                                                                            ; out0             ;
+; |FINAL|DCA:inst3|74154:inst3|17                                                                                         ; |FINAL|DCA:inst3|74154:inst3|17                                                                                            ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3   ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3      ; sumout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3] ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[2] ; |FINAL|DIVIDER:inst2|lpm_counter5:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[2]               ; regout           ;
+; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]          ; |FINAL|DIVIDER:inst2|lpm_compare1:inst3|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]             ; out0             ;
+; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3] ; |FINAL|DIVIDER:inst2|lpm_counter4:inst21|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]               ; regout           ;
+; |FINAL|lab2:inst|inst22                                                                                                 ; |FINAL|lab2:inst|inst22                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst17                                                                                                 ; |FINAL|lab2:inst|inst17                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst13                                                                                                 ; |FINAL|lab2:inst|inst13                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst21                                                                                                 ; |FINAL|lab2:inst|inst21                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst19                                                                                                 ; |FINAL|lab2:inst|inst19                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|inst15                                                                                                 ; |FINAL|lab2:inst|inst15                                                                                                    ; out0             ;
+; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3]       ; |FINAL|lab2:inst|lpm_counter3:inst|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]                     ; regout           ;
+; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]~1            ; |FINAL|lab2:inst|lpm_compare0:inst1|lpm_compare:lpm_compare_component|cmpr_big:auto_generated|data_wire[1]~1               ; out0             ;
++-------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
+    Info: Processing started: Mon Sep 24 19:14:08 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off lab2 -c lab2
+Info: Using vector source file "D:/lab2/FINAL_WF.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      51.69 %
+Info: Number of transitions in simulation is 1951
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 163 megabytes
+    Info: Processing ended: Mon Sep 24 19:14:08 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

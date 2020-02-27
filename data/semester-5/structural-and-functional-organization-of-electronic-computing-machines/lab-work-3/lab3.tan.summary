@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.344 ns
+From           : AD[2]
+To             : lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a0~porta_address_reg7
+From Clock     : --
+To Clock       : RAM/ROM
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 13.417 ns
+From           : test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]
+To             : data3[2]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.662 ns
+From           : AD[2]
+To             : ab[3]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.721 ns
+From           : RAM/ROM
+To             : test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 171.76 MHz ( period = 5.822 ns )
+From           : lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]
+To             : lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a0~porta_address_reg7
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'RAM/ROM'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 279.33 MHz ( period = 3.580 ns )
+From           : lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a0~porta_address_reg7
+To             : lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[5]
+From Clock     : RAM/ROM
+To Clock       : RAM/ROM
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[7]
+To             : lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[7]
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 59
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 59
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,555 @@
+Simulator report for lab3
+Mon Oct 08 23:02:27 2018
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ALTSYNCRAM
+  6. |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ALTSYNCRAM
+  7. Coverage Summary
+  8. Complete 1/0-Value Coverage
+  9. Missing 1-Value Coverage
+ 10. Missing 0-Value Coverage
+ 11. Simulator INI Usage
+ 12. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 272 nodes    ;
+; Simulation Coverage         ;      65.85 % ;
+; Total Number of Transitions ; 1965         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Vector input source                                                                        ; MAIN.vwf   ;               ;
+; Add pins automatically to simulation output waveforms                                      ; Off        ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++-----------------------------------------------------------------------------------------------+
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ALTSYNCRAM ;
++-----------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++----------------------------------------------------------------------------------------------------+
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ALTSYNCRAM ;
++----------------------------------------------------------------------------------------------------+
+Please refer to fitter text-based report (*.fit.rpt) to view logical memory report content in ASCII.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      65.85 % ;
+; Total nodes checked                                 ; 272          ;
+; Total output ports checked                          ; 284          ;
+; Total output ports with complete 1/0-value coverage ; 187          ;
+; Total output ports with no 1/0-value coverage       ; 73           ;
+; Total output ports with no 1-value coverage         ; 75           ;
+; Total output ports with no 0-value coverage         ; 95           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                            ; Output Port Name                                                                                                        ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+------------------+
+; |MAIN|READ                                                                                                           ; |MAIN|READ                                                                                                              ; pin_out          ;
+; |MAIN|inst31                                                                                                         ; |MAIN|inst31                                                                                                            ; out0             ;
+; |MAIN|CLK                                                                                                            ; |MAIN|CLK                                                                                                               ; out              ;
+; |MAIN|inst21                                                                                                         ; |MAIN|inst21                                                                                                            ; out              ;
+; |MAIN|WRITE                                                                                                          ; |MAIN|WRITE                                                                                                             ; pin_out          ;
+; |MAIN|ab[6]                                                                                                          ; |MAIN|ab[6]                                                                                                             ; pin_out          ;
+; |MAIN|ab[4]                                                                                                          ; |MAIN|ab[4]                                                                                                             ; pin_out          ;
+; |MAIN|ab[3]                                                                                                          ; |MAIN|ab[3]                                                                                                             ; pin_out          ;
+; |MAIN|ab[2]                                                                                                          ; |MAIN|ab[2]                                                                                                             ; pin_out          ;
+; |MAIN|ab[1]                                                                                                          ; |MAIN|ab[1]                                                                                                             ; pin_out          ;
+; |MAIN|ab[0]                                                                                                          ; |MAIN|ab[0]                                                                                                             ; pin_out          ;
+; |MAIN|AD[6]                                                                                                          ; |MAIN|AD[6]                                                                                                             ; out              ;
+; |MAIN|AD[4]                                                                                                          ; |MAIN|AD[4]                                                                                                             ; out              ;
+; |MAIN|AD[3]                                                                                                          ; |MAIN|AD[3]                                                                                                             ; out              ;
+; |MAIN|AD[1]                                                                                                          ; |MAIN|AD[1]                                                                                                             ; out              ;
+; |MAIN|inst36                                                                                                         ; |MAIN|inst36                                                                                                            ; out0             ;
+; |MAIN|inst34                                                                                                         ; |MAIN|inst34                                                                                                            ; out0             ;
+; |MAIN|counter_clk_write[1]                                                                                           ; |MAIN|counter_clk_write[1]                                                                                              ; pin_out          ;
+; |MAIN|counter_clk_write[0]                                                                                           ; |MAIN|counter_clk_write[0]                                                                                              ; pin_out          ;
+; |MAIN|inst33                                                                                                         ; |MAIN|inst33                                                                                                            ; out0             ;
+; |MAIN|data0[3]                                                                                                       ; |MAIN|data0[3]                                                                                                          ; pin_out          ;
+; |MAIN|data0[0]                                                                                                       ; |MAIN|data0[0]                                                                                                          ; pin_out          ;
+; |MAIN|data1[2]                                                                                                       ; |MAIN|data1[2]                                                                                                          ; pin_out          ;
+; |MAIN|data1[1]                                                                                                       ; |MAIN|data1[1]                                                                                                          ; pin_out          ;
+; |MAIN|data2[2]                                                                                                       ; |MAIN|data2[2]                                                                                                          ; pin_out          ;
+; |MAIN|data2[0]                                                                                                       ; |MAIN|data2[0]                                                                                                          ; pin_out          ;
+; |MAIN|data3[3]                                                                                                       ; |MAIN|data3[3]                                                                                                          ; pin_out          ;
+; |MAIN|demux_count[3]                                                                                                 ; |MAIN|demux_count[3]                                                                                                    ; pin_out          ;
+; |MAIN|demux_count[2]                                                                                                 ; |MAIN|demux_count[2]                                                                                                    ; pin_out          ;
+; |MAIN|demux_count[1]                                                                                                 ; |MAIN|demux_count[1]                                                                                                    ; pin_out          ;
+; |MAIN|demux_count[0]                                                                                                 ; |MAIN|demux_count[0]                                                                                                    ; pin_out          ;
+; |MAIN|mux_ad[1]                                                                                                      ; |MAIN|mux_ad[1]                                                                                                         ; pin_out          ;
+; |MAIN|mux_ad[0]                                                                                                      ; |MAIN|mux_ad[0]                                                                                                         ; pin_out          ;
+; |MAIN|inst2                                                                                                          ; |MAIN|inst2                                                                                                             ; out0             ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a0                      ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[0]                               ; portadataout0    ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a1                      ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[1]                               ; portadataout0    ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a2                      ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[2]                               ; portadataout0    ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a3                      ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[3]                               ; portadataout0    ;
+; |MAIN|demux:inst13|inst10                                                                                            ; |MAIN|demux:inst13|inst10                                                                                               ; out0             ;
+; |MAIN|demux:inst13|inst11                                                                                            ; |MAIN|demux:inst13|inst11                                                                                               ; out0             ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a0                 ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[0]                          ; portadataout0    ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a1                 ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[1]                          ; portadataout0    ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a2                 ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[2]                          ; portadataout0    ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a3                 ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[3]                          ; portadataout0    ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a5                 ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[5]                          ; portadataout0    ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w0_n0_mux_dataout~0                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w0_n0_mux_dataout~0                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w0_n0_mux_dataout~1                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w0_n0_mux_dataout~1                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w0_n0_mux_dataout                                        ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w0_n0_mux_dataout                                           ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w1_n0_mux_dataout~0                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w1_n0_mux_dataout~0                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w1_n0_mux_dataout~1                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w1_n0_mux_dataout~1                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w1_n0_mux_dataout                                        ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w1_n0_mux_dataout                                           ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w2_n0_mux_dataout~0                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w2_n0_mux_dataout~0                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w2_n0_mux_dataout~1                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w2_n0_mux_dataout~1                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w2_n0_mux_dataout                                        ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w2_n0_mux_dataout                                           ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w3_n0_mux_dataout~0                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w3_n0_mux_dataout~0                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w3_n0_mux_dataout~1                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w3_n0_mux_dataout~1                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w3_n0_mux_dataout                                        ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w3_n0_mux_dataout                                           ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout~1                                      ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout~1                                         ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout                                        ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout                                           ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n1_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n1_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n1_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n1_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n1_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w0_n1_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n1_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n1_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n1_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n1_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n1_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n1_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n1_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n1_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n1_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n1_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w0_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w0_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w0_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w0_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w0_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w0_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w1_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w1_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w1_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w1_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w1_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w1_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w2_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w2_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w2_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w2_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w2_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w2_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w3_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w3_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w3_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w3_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w3_n0_mux_dataout              ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w3_n0_mux_dataout                 ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w5_n0_mux_dataout~0            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w5_n0_mux_dataout~0               ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w5_n0_mux_dataout~1            ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w5_n0_mux_dataout~1               ; out0             ;
+; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0   ; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0      ; sumout           ;
+; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0   ; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita1   ; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita1      ; sumout           ;
+; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_reg_bit1a[1] ; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|safe_q[1]               ; regout           ;
+; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_reg_bit1a[0] ; |MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|safe_q[0]               ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]                                                    ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[2]                                                    ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[2]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[0]                                                    ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[0]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[2]                                                    ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[2]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[1]                                                    ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[1]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode15w[2]          ; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode15w[2]             ; out0             ;
+; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode1w[2]           ; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode1w[2]              ; out0             ;
+; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode24w[2]          ; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode24w[2]             ; out0             ;
+; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode33w[2]          ; |MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component|decode_p7f:auto_generated|w_anode33w[2]             ; out0             ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[3]                                                    ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[3]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[0]                                                    ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[0]                                                       ; regout           ;
+; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0    ; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0       ; sumout           ;
+; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0    ; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita0~COUT  ; cout             ;
+; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita1    ; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_comb_bita1       ; sumout           ;
+; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_reg_bit1a[1]  ; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|safe_q[1]                ; regout           ;
+; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|counter_reg_bit1a[0]  ; |MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated|safe_q[0]                ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0                  ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COUT             ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1                  ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COUT             ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2                  ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COUT             ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3               ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3                  ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[2]             ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]                           ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[1]             ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]                           ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[0]             ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]                           ; regout           ;
+; |MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|aneb_result_wire[0]               ; |MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|aneb_result_wire[0]                  ; out0             ;
+; |MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]                      ; |MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[1]                         ; out0             ;
+; |MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[0]                      ; |MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|data_wire[0]                         ; out0             ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0                  ; sumout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita0~COUT             ; cout             ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1                  ; sumout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita1~COUT             ; cout             ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2                  ; sumout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita2~COUT             ; cout             ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3               ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_comb_bita3                  ; sumout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[3]             ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[3]                           ; regout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[2]             ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[2]                           ; regout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[1]             ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[1]                           ; regout           ;
+; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|counter_reg_bit1a[0]             ; |MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[0]                           ; regout           ;
+; |MAIN|DECODE:inst1|inst1                                                                                             ; |MAIN|DECODE:inst1|inst1                                                                                                ; out0             ;
+; |MAIN|DECODE:inst1|inst2                                                                                             ; |MAIN|DECODE:inst1|inst2                                                                                                ; out0             ;
+; |MAIN|DECODE:inst1|inst3                                                                                             ; |MAIN|DECODE:inst1|inst3                                                                                                ; out0             ;
+; |MAIN|DECODE:inst1|inst4                                                                                             ; |MAIN|DECODE:inst1|inst4                                                                                                ; out0             ;
+; |MAIN|DECODE:inst1|inst15                                                                                            ; |MAIN|DECODE:inst1|inst15                                                                                               ; out0             ;
+; |MAIN|DECODE:inst1|inst12                                                                                            ; |MAIN|DECODE:inst1|inst12                                                                                               ; out0             ;
+; |MAIN|DECODE:inst1|inst11                                                                                            ; |MAIN|DECODE:inst1|inst11                                                                                               ; out0             ;
+; |MAIN|DECODE:inst1|inst10                                                                                            ; |MAIN|DECODE:inst1|inst10                                                                                               ; out0             ;
+; |MAIN|DECODE:inst1|inst9                                                                                             ; |MAIN|DECODE:inst1|inst9                                                                                                ; out0             ;
+; |MAIN|DECODE:inst1|inst8                                                                                             ; |MAIN|DECODE:inst1|inst8                                                                                                ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~0                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~0                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~1                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~1                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~2                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~2                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~3                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~3                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~4                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~4                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~5                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~5                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~6                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~6                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~7                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~7                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~8                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~8                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~9                         ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~9                            ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~10                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~10                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~11                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~11                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~12                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~12                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~13                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~13                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~14                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~14                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~15                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~15                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~16                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~16                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~18                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~18                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~19                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~19                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~20                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~20                           ; out0             ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~21                        ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~21                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~0                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~0                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~1                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~1                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~2                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~2                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~3                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~3                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~5                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~5                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~6                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~6                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~7                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~7                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~8                        ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~8                           ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~11                       ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~11                          ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~12                       ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~12                          ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~13                       ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~13                          ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~14                       ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~14                          ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~17                       ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~17                          ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~27                       ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~27                          ; out0             ;
++----------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                                                   ;
++-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                 ; Output Port Name                                                                                            ; Output Port Type ;
++-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+------------------+
+; |MAIN|ab[7]                                                                                               ; |MAIN|ab[7]                                                                                                 ; pin_out          ;
+; |MAIN|ab[5]                                                                                               ; |MAIN|ab[5]                                                                                                 ; pin_out          ;
+; |MAIN|AD[7]                                                                                               ; |MAIN|AD[7]                                                                                                 ; out              ;
+; |MAIN|AD[5]                                                                                               ; |MAIN|AD[5]                                                                                                 ; out              ;
+; |MAIN|AD[2]                                                                                               ; |MAIN|AD[2]                                                                                                 ; out              ;
+; |MAIN|AD[0]                                                                                               ; |MAIN|AD[0]                                                                                                 ; out              ;
+; |MAIN|RAM/ROM                                                                                             ; |MAIN|RAM/ROM                                                                                               ; out              ;
+; |MAIN|data0[4]                                                                                            ; |MAIN|data0[4]                                                                                              ; pin_out          ;
+; |MAIN|data0[1]                                                                                            ; |MAIN|data0[1]                                                                                              ; pin_out          ;
+; |MAIN|data1[4]                                                                                            ; |MAIN|data1[4]                                                                                              ; pin_out          ;
+; |MAIN|data1[3]                                                                                            ; |MAIN|data1[3]                                                                                              ; pin_out          ;
+; |MAIN|data2[4]                                                                                            ; |MAIN|data2[4]                                                                                              ; pin_out          ;
+; |MAIN|data2[3]                                                                                            ; |MAIN|data2[3]                                                                                              ; pin_out          ;
+; |MAIN|data3[4]                                                                                            ; |MAIN|data3[4]                                                                                              ; pin_out          ;
+; |MAIN|data3[2]                                                                                            ; |MAIN|data3[2]                                                                                              ; pin_out          ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a5           ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[5]                   ; portadataout0    ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a4      ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[4]              ; portadataout0    ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~0                           ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~0                             ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~1                           ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~1                             ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout                             ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout                               ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout~0                           ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout~0                             ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[3]                                         ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[3]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[3]                                         ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[3]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[1]                                         ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[1]                                           ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita7    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita7      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[7]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[7]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[6]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[6]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[5]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[5]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[4]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[4]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[3]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]               ; regout           ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~17             ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~17               ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~4             ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~4               ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~9             ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~9               ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~10            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~10              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~15            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~15              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~16            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~16              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~18            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~18              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~19            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~19              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~20            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~20              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~21            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~21              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~22            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~22              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~23            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~23              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~24            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~24              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~25            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~25              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~26            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~26              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~28            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~28              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~29            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~29              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~30            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~30              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~31            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~31              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~32            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~32              ; out0             ;
++-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                                                   ;
++-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                 ; Output Port Name                                                                                            ; Output Port Type ;
++-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+------------------+
+; |MAIN|ab[7]                                                                                               ; |MAIN|ab[7]                                                                                                 ; pin_out          ;
+; |MAIN|ab[5]                                                                                               ; |MAIN|ab[5]                                                                                                 ; pin_out          ;
+; |MAIN|AD[7]                                                                                               ; |MAIN|AD[7]                                                                                                 ; out              ;
+; |MAIN|AD[5]                                                                                               ; |MAIN|AD[5]                                                                                                 ; out              ;
+; |MAIN|AD[2]                                                                                               ; |MAIN|AD[2]                                                                                                 ; out              ;
+; |MAIN|data0[5]                                                                                            ; |MAIN|data0[5]                                                                                              ; pin_out          ;
+; |MAIN|data0[4]                                                                                            ; |MAIN|data0[4]                                                                                              ; pin_out          ;
+; |MAIN|data0[2]                                                                                            ; |MAIN|data0[2]                                                                                              ; pin_out          ;
+; |MAIN|data0[1]                                                                                            ; |MAIN|data0[1]                                                                                              ; pin_out          ;
+; |MAIN|data1[5]                                                                                            ; |MAIN|data1[5]                                                                                              ; pin_out          ;
+; |MAIN|data1[4]                                                                                            ; |MAIN|data1[4]                                                                                              ; pin_out          ;
+; |MAIN|data1[3]                                                                                            ; |MAIN|data1[3]                                                                                              ; pin_out          ;
+; |MAIN|data1[0]                                                                                            ; |MAIN|data1[0]                                                                                              ; pin_out          ;
+; |MAIN|data2[5]                                                                                            ; |MAIN|data2[5]                                                                                              ; pin_out          ;
+; |MAIN|data2[4]                                                                                            ; |MAIN|data2[4]                                                                                              ; pin_out          ;
+; |MAIN|data2[3]                                                                                            ; |MAIN|data2[3]                                                                                              ; pin_out          ;
+; |MAIN|data2[1]                                                                                            ; |MAIN|data2[1]                                                                                              ; pin_out          ;
+; |MAIN|data3[5]                                                                                            ; |MAIN|data3[5]                                                                                              ; pin_out          ;
+; |MAIN|data3[4]                                                                                            ; |MAIN|data3[4]                                                                                              ; pin_out          ;
+; |MAIN|data3[2]                                                                                            ; |MAIN|data3[2]                                                                                              ; pin_out          ;
+; |MAIN|data3[1]                                                                                            ; |MAIN|data3[1]                                                                                              ; pin_out          ;
+; |MAIN|data3[0]                                                                                            ; |MAIN|data3[0]                                                                                              ; pin_out          ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a4           ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[4]                   ; portadataout0    ;
+; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|ram_block1a5           ; |MAIN|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_4751:auto_generated|q_a[5]                   ; portadataout0    ;
+; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|ram_block1a4      ; |MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component|altsyncram_nkc1:auto_generated|q_a[4]              ; portadataout0    ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~0                           ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~0                             ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~1                           ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout~1                             ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout                             ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w4_n0_mux_dataout                               ; out0             ;
+; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout~0                           ; |MAIN|busmux:inst8|lpm_mux:$00000|mux_snc:auto_generated|l1_w5_n0_mux_dataout~0                             ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w1_n0_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w2_n1_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n0_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w3_n1_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n0_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w4_n1_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n0_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n0_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n1_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l1_w5_n1_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~0 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~0   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~1 ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout~1   ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w4_n0_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w5_n0_mux_dataout   ; |MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component|mux_vnc:auto_generated|l2_w5_n0_mux_dataout     ; out0             ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[5]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[5]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[1]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[1]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[0]                                         ; |MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[0]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[5]                                         ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[5]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[3]                                         ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[3]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[1]                                         ; |MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[1]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[5]                                         ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[5]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[3]                                         ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[3]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[0]                                         ; |MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[0]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[5]                                         ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[5]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[4]                                         ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[4]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[2]                                         ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[2]                                           ; regout           ;
+; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[1]                                         ; |MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[1]                                           ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita4~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita5~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita6~COUT ; cout             ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita7    ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita7      ; sumout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[7]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[7]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[6]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[6]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[5]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[5]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[4]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[4]               ; regout           ;
+; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[3]  ; |MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]               ; regout           ;
+; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~17             ; |MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component|add_sub_fmh:auto_generated|op_1~17               ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~4             ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~4               ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~9             ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~9               ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~10            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~10              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~15            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~15              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~16            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~16              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~18            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~18              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~19            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~19              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~20            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~20              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~21            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~21              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~22            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~22              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~23            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~23              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~24            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~24              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~25            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~25              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~26            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~26              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~28            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~28              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~29            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~29              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~30            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~30              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~31            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~31              ; out0             ;
+; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~32            ; |MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component|add_sub_beh:auto_generated|op_1~32              ; out0             ;
++-----------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
+    Info: Processing started: Mon Oct 08 23:02:27 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off lab3 -c lab3
+Info: Using vector source file "D:/lab3/MAIN.vwf"
+Warning: Ignored node in vector source file. Can't find corresponding node name "AB_CLK" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[7]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[6]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[5]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[4]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[3]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[2]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[1]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "ab_clk_count[0]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "out_buf[5]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "out_buf[4]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "out_buf[3]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "out_buf[2]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "out_buf[1]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "out_buf[0]" in design.
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Warning: Found clock-sensitive change during active clock edge at time 10.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[2]"
+Warning: Found clock-sensitive change during active clock edge at time 10.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst15|lpm_ff:lpm_ff_component|dffs[1]"
+Warning: Found clock-sensitive change during active clock edge at time 20.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst11|lpm_ff:lpm_ff_component|dffs[0]"
+Warning: Found clock-sensitive change during active clock edge at time 30.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]"
+Warning: Found clock-sensitive change during active clock edge at time 30.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]"
+Warning: Found clock-sensitive change during active clock edge at time 30.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[1]"
+Warning: Found clock-sensitive change during active clock edge at time 30.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[0]"
+Warning: Found clock-sensitive change during active clock edge at time 40.0 ns on register "|MAIN|test:inst40|lpm_dff0:inst12|lpm_ff:lpm_ff_component|dffs[0]"
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      65.85 %
+Info: Number of transitions in simulation is 1965
+Info: Quartus II Simulator was successful. 0 errors, 23 warnings
+    Info: Peak virtual memory: 164 megabytes
+    Info: Processing ended: Mon Oct 08 23:02:27 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,258 @@
+GED
+
+	Undo Commands
+	     1.	Move
+	     2.	Move
+	     3.	Move
+	     4.	Move
+	     5.	Move
+	     6.	Move
+	     7.	Move
+	     8.	Paste
+	     9.	Move
+	    10.	Rotate 270
+	    11.	Insert Symbol
+	    12.	Delete
+	    13.	Properties
+	    14.	Insert Node
+	    15.	Move
+	    16.	Move
+	    17.	Rotate 270
+	    18.	Insert Symbol
+	    19.	Delete
+	    20.	Insert Symbol
+	    21.	Paste
+	    22.	Delete
+	    23.	Insert Symbol
+	    24.	Move
+	    25.	Move
+	    26.	Properties
+	    27.	Insert Node
+	    28.	Delete
+	    29.	Move
+	    30.	Move
+	    31.	Move
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Move
+	    36.	Move
+	    37.	Move
+	    38.	Move
+	    39.	Move
+	    40.	Move
+	    41.	Move
+	    42.	Move
+	    43.	Move
+	    44.	Move
+	    45.	Move
+	    46.	Move
+	    47.	Move
+	    48.	Move
+	    49.	Properties
+	    50.	Insert Symbol
+	    51.	Move
+	    52.	Properties
+	    53.	Insert Symbol
+	    54.	Delete
+	    55.	Delete
+
+
+GED
+
+	Undo Commands
+	     1.	Move
+	     2.	Move
+	     3.	Move
+	     4.	Move
+	     5.	Move
+	     6.	Move
+	     7.	Move
+	     8.	Move
+	     9.	Move
+	    10.	Move
+	    11.	Move
+	    12.	Move
+	    13.	Move
+	    14.	Move
+	    15.	Move
+	    16.	Move
+	    17.	Move
+	    18.	Move
+	    19.	Move
+	    20.	Properties
+	    21.	Insert Symbol
+	    22.	Move
+	    23.	Resize
+	    24.	Paste
+	    25.	Delete
+	    26.	Move
+	    27.	Move
+	    28.	Move
+	    29.	Move
+	    30.	Move
+	    31.	Move
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Move
+	    36.	Move
+	    37.	Move
+	    38.	Move
+	    39.	Move
+	    40.	Move
+	    41.	Move
+	    42.	Move
+	    43.	Move
+	    44.	Delete Insert
+	    45.	Move
+	    46.	Properties
+	    47.	Properties
+	    48.	Copy
+	    49.	Insert Bus
+	    50.	Move
+	    51.	Move
+	    52.	Move
+	    53.	Properties
+	    54.	Properties
+	    55.	Insert Symbol
+	    56.	Delete
+	    57.	Move
+	    58.	Move
+	    59.	Properties
+	    60.	Copy
+	    61.	Properties
+	    62.	Move
+	    63.	Properties
+	    64.	Properties
+	    65.	Insert Symbol
+	    66.	Move
+	    67.	Paste
+
+
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+
+
+GED
+
+	Undo Commands
+	     1.	Move
+	     2.	Paste
+	     3.	Delete
+	     4.	Properties
+	     5.	Properties
+	     6.	Properties
+	     7.	Properties
+	     8.	Delete
+	     9.	Insert Node
+	    10.	Insert Node
+	    11.	Resize
+	    12.	Insert Node
+	    13.	Insert Node
+	    14.	Insert Bus
+	    15.	Move
+	    16.	Properties
+	    17.	Copy
+	    18.	Properties
+	    19.	Resize
+	    20.	Delete
+	    21.	Move
+	    22.	Paste
+	    23.	Delete Insert
+	    24.	Delete Insert
+	    25.	Properties
+	    26.	Move
+	    27.	Delete
+	    28.	Insert Symbol
+	    29.	Delete
+	    30.	Insert Symbol
+	    31.	Properties
+	    32.	Delete
+	    33.	Insert Symbol
+	    34.	Move
+	    35.	Paste
+	    36.	Move
+	    37.	Paste
+
+
+WED
+
+	Undo Commands
+	     1.	Group and Bus Bit Reorder
+			 *** 
+	     2.	Group and Bus Bit Reorder
+			 *** 
+	     3.	Insert Node or Bus
+	     4.	Clock
+	     5.	Group and Bus Bit Reorder
+			 *** 
+	     6.	Group and Bus Bit Reorder
+			 *** 
+	     7.	Insert Node or Bus
+
+
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Simulation Waveforms
+
+
+WED
+
+	Undo Commands
+	     1.	Change Time Bars
+	     2.	Change Time Bars
+	     3.	Change Time Bars
+	     4.	Change Time Bars
+	     5.	Change Time Bars
+	     6.	Change Time Bars
+	     7.	Change Time Bars
+	     8.	Change Time Bars
+	     9.	Change Time Bars
+	    10.	Change Time Bars
+	    11.	Change Time Bars
+	    12.	Change Time Bars
+	    13.	Change Time Bars
+	    14.	Change Time Bars
+	    15.	Change Time Bars
+	    16.	Change Time Bars
+	    17.	Change Time Bars
+	    18.	Change Time Bars
+	    19.	Change Time Bars
+	    20.	Change Time Bars
+	    21.	Change Time Bars
+	    22.	Change Time Bars
+	    23.	Change Time Bars
+	    24.	Change Time Bars
+	    25.	Change Time Bars
+	    26.	Change Time Bars
+	    27.	Change Time Bars
+	    28.	Change Time Bars
+	    29.	Change Time Bars
+	    30.	Change Time Bars
+	    31.	Change Time Bars
+	    32.	Change Time Bars
+	    33.	Change Time Bars
+	    34.	Change Time Bars
+	    35.	Change Time Bars
+	    36.	Change Time Bars
+	    37.	Change Time Bars
+	    38.	Change Time Bars
+	    39.	Change Time Bars
+	    40.	Change Time Bars
+	    41.	Change Time Bars
+	    42.	Change Time Bars
+	    43.	Change Time Bars
+	    44.	Change Time Bars
+	    45.	Change Time Bars
+	    46.	Change Time Bars
+	    47.	Change Time Bars
+	    48.	Change Time Bars
+	    49.	Change Time Bars
+	    50.	Change Time Bars
+	    51.	Change Time Bars
+
+

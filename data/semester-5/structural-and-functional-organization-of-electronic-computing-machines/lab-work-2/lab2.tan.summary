@@ -1,0 +1,226 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.186 ns
+From           : N2
+To             : lab2:inst|inst7
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 16.113 ns
+From           : DCA:inst3|74160:inst6|8
+To             : DCa[0]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.484 ns
+From           : M1
+To             : lab2:inst|inst7
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 232.77 MHz ( period = 4.296 ns )
+From           : lab2:inst|inst3
+To             : lab2:inst|inst7
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'N0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : N0
+To Clock       : N0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'M0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : M0
+To Clock       : M0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'N1'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : N1
+To Clock       : N1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'M1'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : M1
+To Clock       : M1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'N2'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : N2
+To Clock       : N2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'M2'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : M2
+To Clock       : M2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'M3'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : M3
+To Clock       : M3
+Failed Paths   : 0
+
+Type           : Clock Setup: 'N3'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 500.00 MHz ( period = 2.000 ns )
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst11
+From Clock     : N3
+To Clock       : N3
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 16
+
+Type           : Clock Hold: 'N3'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : N3
+To Clock       : N3
+Failed Paths   : 9
+
+Type           : Clock Hold: 'M3'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : M3
+To Clock       : M3
+Failed Paths   : 9
+
+Type           : Clock Hold: 'M2'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : M2
+To Clock       : M2
+Failed Paths   : 9
+
+Type           : Clock Hold: 'N2'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : N2
+To Clock       : N2
+Failed Paths   : 9
+
+Type           : Clock Hold: 'M1'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : M1
+To Clock       : M1
+Failed Paths   : 9
+
+Type           : Clock Hold: 'N1'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : N1
+To Clock       : N1
+Failed Paths   : 9
+
+Type           : Clock Hold: 'M0'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : M0
+To Clock       : M0
+Failed Paths   : 9
+
+Type           : Clock Hold: 'N0'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : DIVIDER:inst2|inst32
+To             : DIVIDER:inst2|inst32
+From Clock     : N0
+To Clock       : N0
+Failed Paths   : 9
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 88
+
+--------------------------------------------------------------------------------------
+

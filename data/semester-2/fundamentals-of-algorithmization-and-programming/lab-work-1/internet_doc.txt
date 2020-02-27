@@ -1,0 +1,1521 @@
+<!DOCTYPE HTML>
+<!--[if IE 8 ]><html lang="ru-RU" class="ie78 ie8"><![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--><html lang="ru-RU"><!--<![endif]-->
+<head>
+	<title>Ќоутбуки Acer -  упить ноутбук Acer в ћинске</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="ноутбуки acer купить продать цены в ћинске описани€ фото каталог товаров продажа безнал" />
+    <meta name="description" content="Ќоутбуки Acer - каталог товаров с описани€ми и фотографи€ми, цены интернет-магазинов в ћинске. ¬есь модельный р€д, цены и технические описани€ на ноутбуки Acer." />
+    <meta name="viewport" content="width=device-width,user-scalable=yes" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<meta name="verify-v1" content="NZQ2/IC1/afiFdYZP+xK5evFkWBYWxaTd7N2R0SKBL0=" />
+	<meta name="google-site-verification" content="ncT652yugaGJ3v6a8Ts9auc0_hOowxEiHQa_HRZKPoc" />
+    <link rel="stylesheet" href="http://1k.by/Templates/standard/css_v36/common.css" />
+    <link rel="stylesheet" href="http://1k.by/OS/colorbox/css/colorbox.css">
+    <link rel="stylesheet" type="text/css" href="http://1k.by/OS/jquery/css/user/jquery-ui.min.css" />
+    <link rel="shortcut icon" href="http://1k.by/favicon.png" />
+<script src="http://1k.by/js_v27/standard/admixer.js"></script>
+<script type="text/javascript">
+    admixerML.fn.push(function () {
+
+        admixerML.defineSlot({
+            z: 'df0c2abc-90e7-41d0-8033-558c1750c6a3',
+            ph: 'admixer_df0c2abc90e741d08033558c1750c6a3_zone_9361_sect_2567_site_2271',
+            i: 'inv-nets'
+        });
+        admixerML.defineSlot({
+            z: '6482a7d6-5da2-49ab-8626-da598fe25c50',
+            ph: 'admixer_6482a7d65da249ab8626da598fe25c50_zone_9362_sect_2567_site_2271',
+            i: 'inv-nets'
+        });
+        admixerML.singleRequest();
+    });
+</script>
+</head>
+<body data-device-type="desktop">
+    <div class="g-wrapper">
+    	<div class="scrolling_buttons">
+    		<div class="scrolling_buttons_up">
+    			<div class="scrollup"></div>
+    			<div class="pgup"></div>
+    		</div>
+    		<div class="scrolling_buttons_down">
+    			<div class="pgdown"></div>
+    			<div class="scrolldown"></div>
+    		</div>   		
+    	</div>
+<div class="banner100"><div id="admixer_df0c2abc90e741d08033558c1750c6a3_zone_9361_sect_2567_site_2271" style="margin:0 auto;"></div>
+<script type="text/javascript">
+    admixerML.fn.push(function () { admixerML.display('admixer_df0c2abc90e741d08033558c1750c6a3_zone_9361_sect_2567_site_2271'); });
+</script>
+</div>        <div class="g-header">
+
+            <a class="b-logo" href="http://1k.by/">
+                <img class="logo_pic" src="http://1k.by/Templates/standard/images/b-logo_img.png" alt="ѕервый  аталог - &quot;¬се уже найдено. ќсталось выбрать.&quot;"/>
+            </a><!-- // b-logo -->
+
+            <div class="b-menu">
+                <div class="menu_catalog">
+                    <div class="menu_catalog-txt"> аталог товаров</div>
+                    <div class="menu_catalog-drop">
+                        <ul class="menu_catalog-list">
+                            <li class="menu_catalog-item">
+                                <a href="http://komp.1k.by/"> омпьютерна€ техника                                    <i class="menu_catalog-icon icon_komp"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://digital.1k.by/">¬идео, аудио, фото, оптика                                    <i class="menu_catalog-icon icon_digital"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="http://phone.1k.by/">“елефони€ и св€зь                                    <i class="menu_catalog-icon icon_phone"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://kids.1k.by/">ƒетский мир                                    <i class="menu_catalog-icon icon_kids"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="http://home.1k.by/">Ѕытова€ техника                                    <i class="menu_catalog-icon icon_home"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://sport.1k.by/">—порт и туризм                                    <i class="menu_catalog-icon icon_sport"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://remont.1k.by/">—троительство и ремонт                                    <i class="menu_catalog-icon icon_remont"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="http://auto.1k.by/">¬се дл€ авто                                    <i class="menu_catalog-icon icon_auto"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://dom.1k.by/">¬се дл€ дома и дачи                                    <i class="menu_catalog-icon icon_dom"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://health.1k.by/"> расота и здоровье                                    <i class="menu_catalog-icon icon_health"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://gift.1k.by/">ѕодарки и аксессуары                                    <i class="menu_catalog-icon icon_gift"></i></a>
+                            </li>
+                            <li class="menu_catalog-item">
+                                <a href="https://soft.1k.by/">—офт, фильмы, музыка                                    <i class="menu_catalog-icon icon_soft"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="menu_misc">
+                    <div class="menu_misc-item pda" data-url="http://1k.by/changesiteversion-mobi?referer=http%3A%2F%2Fkomp.1k.by%2Fmobile-notebooks%2Facer%2F" title="ћобильна€ верси€">
+                        <span class="menu_misc-ttl">ћобильна€ верси€</span>
+                    </div>
+                </div>
+
+                <ul class="menu_nav">
+                    <li class="menu_nav-item"><a href="https://news.1k.by/">Ќовости</a></li>
+                    <li class="menu_nav-item"><a href="https://review.1k.by/">ќбзоры</a></li>
+                    <li class="menu_nav-item"><a href="https://list.1k.by/"> аталог сайтов</a></li>
+                    <li class="menu_nav-item"><a href="http://forum.1k.by/">‘орум</a></li>
+                </ul>
+            </div><!-- // b-menu -->
+
+            <form class="b-search" id="search" action="http://1k.by/products/search" method="get">
+                <div class="search_inner">
+                    <label class="search_dir">
+                        <span class="search_dir-text"> аталог товаров</span>
+                        <select id="searchFor" class="search_dirs" name="searchFor">
+                            <option value="products" selected="selected"> аталог товаров</option>
+                            <option value="news">Ќовости</option>
+                            <option value="reviews">ќбзоры</option>
+                            <option value="sites"> аталог сайтов</option>
+                            <option value="forum">‘орум</option>
+                        </select>
+                    </label>
+                    <label class="search_field">
+                        <input class="search_input" type="text" name="s_keywords" id="s_keywords" value="" />
+                        <span class="search_holder hide">ѕоиск по сайту</span>
+                    </label>
+                    <input class="search_submit" type="submit" value="Ќайти" id="s_submit" />
+					<input type="hidden" id="s_categoryid" name="s_categoryid" value="0" />
+					<div id="searchautocomplete" class="searchautocomplete"></div>
+                </div>
+                <div class="search_details">
+                    <div class="search_conf">–егион: Ѕеларусь					</div>
+                    <div class="search_conf">÷ены в:  б.р. 					</div>
+                    <div class="search_drop">
+                        <div class="search_conf">ƒоставка: люба€						</div>
+                        <a class="b-btn btn_small btn_light" href="https://users.1k.by/setgeo">»зменить</a>
+                    </div>
+                </div>
+            </form>
+            <!-- // b-search -->
+
+            
+				<script type="text/javascript" src="http://1k.by/registration-js-inline.php"></script>
+        </div><!-- // g-header -->
+        <div class="g-main">
+
+        	<div class="b-crumbs" id="status-line" itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<a class="crumbs_item" href="/" rel="nofollow" itemprop="item"><span itemprop="name"> омпьютерна€ техника</span></a>
+	<meta itemprop="position" content="1" />
+</span>
+<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<a class="crumbs_item" href="/mobile-notebooks/" rel="nofollow" itemprop="item"><span itemprop="name"> аталог ноутбуков</span></a>
+	<meta itemprop="position" content="2" />
+</span>
+<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+	<span class="crumbs_current" itemprop="name">Acer</span>
+	<meta itemprop="position" content="3" />
+
+</span>
+</div>
+<div class="b-page-ttl">
+	<h1>Ќоутбуки Acer</h1>
+	</div>
+	<div class="g-content _c--ml-x240">
+	<div class="b-prod-list viewmode_standart">
+	<div class="prod-list_head">
+		<div class="prod-list_sorttitle" id="prod-list_tabcurrent">—ортировать по:</div>
+		<fieldset class="prod-list_toolbar">
+			<div class="prod-list_sort"><span class="b-select"><select id="fa5e50e3" class="select select_orig" name="order" onchange="document.location.href='/mobile-notebooks/s.php?alias=mobile&amp;alias2=notebooks&amp;producer=acer&amp;order=' + this.value" onfocus="this.style.color='#333333';" onblur="this.style.color='#333333';">
+  <option value="titleasc">названию ј-я</option>
+  <option value="titledesc">названию я-ј</option>
+  <option selected="selected" value="top">попул€рности</option>
+  <option value="priceasc">розничной цене начать с дешевых</option>
+  <option value="pricedesc">розничной цене начать с дорогих</option>
+  <option value="pricecashlessasc">безналичной цене начать с дешевых</option>
+  <option value="pricecashlessdesc">безналичной цене начать с дорогих</option>
+</select></span></div>
+			<div class="prod-list_views">
+				<a class="prod-list_view current i-view-base" href="/mobile-notebooks/s.php?alias=mobile&amp;alias2=notebooks&amp;producer=acer&amp;viewmode=standart"></a>
+				<a class="prod-list_view i-view-table" href="/mobile-notebooks/s.php?alias=mobile&amp;alias2=notebooks&amp;producer=acer&amp;viewmode=table"></a>
+				<a class="prod-list_view i-view-list" href="/mobile-notebooks/s.php?alias=mobile&amp;alias2=notebooks&amp;producer=acer&amp;viewmode=list"></a>
+			</div>
+		</fieldset>
+	</div>
+	
+	
+	<div class="prod-list_form">
+		<div class="prod-list_compare">
+			<span data-infocategoryid="5755" data-compareselectedtext="сравнить выбранные" data-selectminproductstext="выберите минимум 2 товара" data-compareurl="/mobile-notebooks/"></span>
+			<input type="hidden" class="products-compare_productsids" data-infocategoryid="5755" value="">
+			<button class="b-btn btn-size_m btn-blue" data-action="compare" data-categoryid="5755" ><i class="icon icon_compare"></i><span class="btn_text">
+			—равнить			</span></button>
+			<!-- // b-btn -->
+			<div class="prod-list_compared">
+				“оваров выбрано: <b class="compare_qty">0</b> <a class="compare_clear hidden" data-action="clear_compare" data-categoryid="5755">удалить все</a>
+			</div>
+		</div>
+		<fieldset class="prod-list_body">
+<div class="b-nb series_products_block" data-seriesmainproductid="2175829">
+	<div class="nb_header">
+		<div class="nb_media">
+			<div id="image_container_2175829">
+				<span class="colorbox_group_2175829" data-imageindex="0" data-srcbig="https://static.1k.by/images/products/ip/big/pp8/7/2175829/i864daa4ee.jpg"><img title="Acer Extensa 2511G" alt="Acer Extensa 2511G" src="https://static.1k.by/images/products/ip/125/pp8/7/2175829/i864daa4ee.jpg" class="nb_pic" /></span>
+			</div>
+			<div class="enlarge_image" id="enlarge_image_2175829">
+	    		<span class="label_enlarge_image">
+	    		  <img src="http://1k.by/Templates/standard/images/zoom.jpg" alt="”величить" title="”величить" />
+			  </span>
+			</div>
+		</div>
+		<div class="nb-info">
+			<div class="nb_title">Acer Extensa 2511G</div>
+			<div class="b-price">
+                <div class="prod_price-box">
+				    <div class="price_item">–озница <span class="c-green">от <b>623,00</b>  б.р.</span></div>
+				</div>
+                <div class="prod_price-box">
+				    <div class="price_item">Ѕезнал <span class="c-orange">от <b>663,00</b>  б.р.</span></div>
+				</div>
+			</div><!-- // b-price -->
+		</div>
+	</div>
+	<div class="nb_data">
+		<table class="nb_body nb-compact">
+			<thead class="nb_thead">
+				<tr class="nb-row">
+					<th class="nb_th nb-check"><i class="ico-compare"></i></th>
+					<th class="nb_th nb-model"><span class="nb_cap">ћодель</span></th>
+					<th class="nb_th nb-cell-1">
+						<span class="nb_cap">
+ѕроцессор						</span>
+					</th>
+					<th class="nb_th nb-cell-2">
+						<span class="nb_cap">
+ од процессора						</span>
+					</th>
+					<th class="nb_th nb-cell-3">
+						<span class="nb_cap">
+„астота						</span>
+					</th>
+					<th class="nb_th nb-cell-4">
+						<span class="nb_cap">
+Ёкран						</span>
+					</th>
+					<th class="nb_th nb-cell-5">
+						<span class="nb_cap">
+–азрешение						</span>
+					</th>
+					<th class="nb_th nb-cell-6">
+						<span class="nb_cap">
+ќперативна€ пам€ть						</span>
+					</th>
+					<th class="nb_th nb-cell-7">
+						<span class="nb_cap">
+∆есткий диск						</span>
+					</th>
+					<th class="nb_th nb-cell-8">
+						<span class="nb_cap">
+√рафический контроллер						</span>
+					</th>
+					<th class="nb_th nb-price"><div class="nb_cap">÷ена</div></th>
+				</tr>
+			</thead>
+			<tbody class="nb_tbody">
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2289955" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_323A_NXEF7ER008-2289955.html">Extensa 2511G-323A (NX.EF7ER.008)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_323A_NXEF7ER008-2289955/offers/" class="c-green">от <b>822,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2410943" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_56DA_NXEF9ER017-2410943.html">Extensa 2511G-56DA (NX.EF9ER.017)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">4210U</td>
+					<td class="nb_td nb-cell-3">1 700 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">1 000 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_56DA_NXEF9ER017-2410943/offers/" class="c-green">от <b>960,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2343909" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_31JN_NXEF7ER009-2343909.html">Extensa 2511G-31JN (NX.EF7ER.009)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_31JN_NXEF7ER009-2343909/offers/" class="c-green">от <b>929,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="nb_tbody models_hidden">
+			
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2398527" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_35D4_NXEF9ER007-2398527.html">Extensa 2511G-35D4 (NX.EF9ER.007)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_35D4_NXEF9ER007-2398527/offers/" class="c-green">от <b>809,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2412629" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_599Z_NXEF9ER011-2412629.html">Extensa 2511G-599Z (NX.EF9ER.011)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">4210U</td>
+					<td class="nb_td nb-cell-3">1 700 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_599Z_NXEF9ER011-2412629/offers/" class="c-green">от <b>920,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2410945" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_39EV_NXEF9ER016-2410945.html">Extensa 2511G-39EV (NX.EF9ER.016)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">1 000 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_39EV_NXEF9ER016-2410945/offers/" class="c-green">от <b>878,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2398513" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_5290_NXEF9ER006-2398513.html">Extensa 2511G-5290 (NX.EF9ER.006)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">4210U</td>
+					<td class="nb_td nb-cell-3">1 700 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_5290_NXEF9ER006-2398513/offers/" class="c-green">от <b>899,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2419795" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_390S_NXEF9ER012-2419795.html">Extensa 2511G-390S (NX.EF9ER.012)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_390S_NXEF9ER012-2419795/offers/" class="c-green">от <b>880,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2173455" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_35SA_NXEF7ER005-2173455.html">Extensa 2511G-35SA (NX.EF7ER.005)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">4005U</td>
+					<td class="nb_td nb-cell-3">1 700 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_35SA_NXEF7ER005-2173455/offers/" class="c-green">от <b>890,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2482829" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_58VK_NXEF7ER011-2482829.html">Extensa 2511G-58VK (NX.EF7ER.011)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_58VK_NXEF7ER011-2482829/offers/" class="c-green">от <b>835,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2482853" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P1TE_NXEF9ER008-2482853.html">Extensa 2511G-P1TE (NX.EF9ER.008)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P1TE_NXEF9ER008-2482853/offers/" class="c-green">от <b>691,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2193473" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_33W5_NXEF7ER006-2193473.html">Extensa 2511G-33W5 (NX.EF7ER.006)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">4005U</td>
+					<td class="nb_td nb-cell-3">1 700 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_33W5_NXEF7ER006-2193473/offers/" class="c-green">от <b>847,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2268951" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P38F_NXEF7EU001-2268951.html">Extensa 2511G-P38F (NX.EF7EU.001)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P38F_NXEF7EU001-2268951/offers/" class="c-green">от <b>742,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2433647" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P5F1_NXEF9ER010-2433647.html">Extensa 2511G-P5F1 (NX.EF9ER.010)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">2 048 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P5F1_NXEF9ER010-2433647/offers/" class="c-green">от <b>700,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2578199" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_576N_NXEF7ER010-2578199.html">Extensa 2511G-576N (NX.EF7ER.010)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">5200U</td>
+					<td class="nb_td nb-cell-3">2 200 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_576N_NXEF7ER010-2578199/offers/" class="c-green">от <b>1 108,60</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2551837" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_541P_NXEF6ER007-2551837.html">Extensa 2511G-541P (NX.EF6ER.007)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">5200U</td>
+					<td class="nb_td nb-cell-3">2 200 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 5500</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_541P_NXEF6ER007-2551837/offers/" class="c-green">от <b>960,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2482831" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_C68R_NXEF9ER001-2482831.html">Extensa 2511G-C68R (NX.EF9ER.001)</a></td>
+					<td class="nb_td nb-cell-1">Intel Celeron</td>
+					<td class="nb_td nb-cell-2">3205U</td>
+					<td class="nb_td nb-cell-3">1 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">2 048 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_C68R_NXEF9ER001-2482831/offers/" class="c-green">от <b>623,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2467301" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P41A_NXEF9ER018-2467301.html">Extensa 2511G-P41A (NX.EF9ER.018)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">1 000 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P41A_NXEF9ER018-2467301/offers/" class="c-green">от <b>780,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2756493" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_32ET_NXEF9EU005-2756493.html">Extensa 2511G-32ET (NX.EF9EU.005)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_32ET_NXEF9EU005-2756493/offers/" class="c-green">от <b>788,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2193475" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_58VK_NXEF7ER004-2193475.html">Extensa 2511G-58VK (NX.EF7ER.004)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">5200U</td>
+					<td class="nb_td nb-cell-3">2 200 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_58VK_NXEF7ER004-2193475/offers/" class="c-green">от <b>1 039,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2173457" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_56HL_NXEF7ER003-2173457.html">Extensa 2511G-56HL (NX.EF7ER.003)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">5200U</td>
+					<td class="nb_td nb-cell-3">2 200 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_56HL_NXEF7ER003-2173457/offers/" class="c-green">от <b>996,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2410947" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_32HU_NXEF6ER008-2410947.html">Extensa 2511G-32HU (NX.EF6ER.008)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i3</td>
+					<td class="nb_td nb-cell-2">5005U</td>
+					<td class="nb_td nb-cell-3">2 000 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 5500</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_32HU_NXEF6ER008-2410947/offers/" class="c-green">от <b>800,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2633355" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P8BS_NXEF7ER001-2633355.html">Extensa 2511G-P8BS (NX.EF7ER.001)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 940M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P8BS_NXEF7ER001-2633355/offers/" class="c-green">от <b>756,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2433649" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_C51A_NXEF9ER009-2433649.html">Extensa 2511G-C51A (NX.EF9ER.009)</a></td>
+					<td class="nb_td nb-cell-1">Intel Celeron</td>
+					<td class="nb_td nb-cell-2">3205U</td>
+					<td class="nb_td nb-cell-3">1 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_C51A_NXEF9ER009-2433649/offers/" class="c-green">от <b>666,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2633395" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P58P_NXEF9ER022-2633395.html">Extensa 2511G-P58P (NX.EF9ER.022)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P58P_NXEF9ER022-2633395/offers/" class="c-green">от <b>795,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2697877" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P7R2_NXEF9ER020-2697877.html">Extensa 2511G-P7R2 (NX.EF9ER.020)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">3805U</td>
+					<td class="nb_td nb-cell-3">1 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_P7R2_NXEF9ER020-2697877/offers/" class="c-green">от <b>840,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2604529" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Extensa_2511G_C1EM_NXEF9ER021-2604529.html">Extensa 2511G-C1EM (NX.EF9ER.021)</a></td>
+					<td class="nb_td nb-cell-1">Intel Celeron</td>
+					<td class="nb_td nb-cell-2">3205U</td>
+					<td class="nb_td nb-cell-3">1 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">15.6''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">NVIDIA GeForce 920M</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Extensa_2511G_C1EM_NXEF9ER021-2604529/offers/" class="c-green">от <b>707,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="nb_more">
+		<span class="dot" data-hidetext="—вернуть модели Acer Extensa 2511G" data-showtext="ѕоказать все модели Acer Extensa 2511G (27)">ѕоказать все модели Acer Extensa 2511G (27)</span>
+	</div>
+</div><!-- // b-nb -->	<div class="b-nb series_products_block" data-seriesmainproductid="2691419">
+	<div class="nb_header">
+		<div class="nb_media">
+			<div id="image_container_2691419">
+				<span class="colorbox_group_2691419" data-imageindex="0" data-srcbig="https://static.1k.by/images/products/ip/big/pp3/a/2691419/i4a6631cfd.jpg"><img title="Acer Aspire V3-372" alt="Acer Aspire V3-372" src="https://static.1k.by/images/products/ip/125/pp3/a/2691419/i4a6631cfd.jpg" class="nb_pic" /></span>
+			</div>
+			<div class="enlarge_image" id="enlarge_image_2691419">
+	    		<span class="label_enlarge_image">
+	    		  <img src="http://1k.by/Templates/standard/images/zoom.jpg" alt="”величить" title="”величить" />
+			  </span>
+			</div>
+		</div>
+		<div class="nb-info">
+			<div class="nb_title">Acer Aspire V3-372</div>
+			<div class="b-price">
+                <div class="prod_price-box">
+				    <div class="price_item">–озница <span class="c-green">от <b>777,00</b>  б.р.</span></div>
+				</div>
+                <div class="prod_price-box">
+				    <div class="price_item">Ѕезнал <span class="c-orange">от <b>799,50</b>  б.р.</span></div>
+				</div>
+			</div><!-- // b-price -->
+		</div>
+	</div>
+	<div class="nb_data">
+		<table class="nb_body nb-compact">
+			<thead class="nb_thead">
+				<tr class="nb-row">
+					<th class="nb_th nb-check"><i class="ico-compare"></i></th>
+					<th class="nb_th nb-model"><span class="nb_cap">ћодель</span></th>
+					<th class="nb_th nb-cell-1">
+						<span class="nb_cap">
+ѕроцессор						</span>
+					</th>
+					<th class="nb_th nb-cell-2">
+						<span class="nb_cap">
+ од процессора						</span>
+					</th>
+					<th class="nb_th nb-cell-3">
+						<span class="nb_cap">
+„астота						</span>
+					</th>
+					<th class="nb_th nb-cell-4">
+						<span class="nb_cap">
+Ёкран						</span>
+					</th>
+					<th class="nb_th nb-cell-5">
+						<span class="nb_cap">
+–азрешение						</span>
+					</th>
+					<th class="nb_th nb-cell-6">
+						<span class="nb_cap">
+ќперативна€ пам€ть						</span>
+					</th>
+					<th class="nb_th nb-cell-7">
+						<span class="nb_cap">
+∆есткий диск						</span>
+					</th>
+					<th class="nb_th nb-cell-8">
+						<span class="nb_cap">
+√рафический контроллер						</span>
+					</th>
+					<th class="nb_th nb-price"><div class="nb_cap">÷ена</div></th>
+				</tr>
+			</thead>
+			<tbody class="nb_tbody">
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2482821" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_591V_NXG7AER002-2482821.html">Aspire V3-372-591V (NX.G7AER.002)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">6 144 ћб</td>
+					<td class="nb_td nb-cell-7">1 000 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_591V_NXG7AER002-2482821/offers/" class="c-green">от <b>1 259,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2524529" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP006-2524529.html">Aspire V3-372 (NX.G7BEP.006)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">4405U</td>
+					<td class="nb_td nb-cell-3">2 100 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP006-2524529/offers/" class="c-green">от <b>777,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2697835" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_P6ZD_NXG7AER022-2697835.html">Aspire V3-372-P6ZD (NX.G7AER.022)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">4405U</td>
+					<td class="nb_td nb-cell-3">2 100 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">6 144 ћб</td>
+					<td class="nb_td nb-cell-7">128 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 510</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_P6ZD_NXG7AER022-2697835/offers/" class="c-green">от <b>1 044,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="nb_tbody models_hidden">
+			
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2645419" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_73Z2_NXG7BER012-2645419.html">Aspire V3-372-73Z2 (NX.G7BER.012)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i7</td>
+					<td class="nb_td nb-cell-2">6500U</td>
+					<td class="nb_td nb-cell-3">2 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">256 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_73Z2_NXG7BER012-2645419/offers/" class="c-green">от <b>1 760,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2719819" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_76HX_NXG7BER014-2719819.html">Aspire V3-372-76HX (NX.G7BER.014)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i7</td>
+					<td class="nb_td nb-cell-2">6500U</td>
+					<td class="nb_td nb-cell-3">2 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">128 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_76HX_NXG7BER014-2719819/offers/" class="c-green">от <b>1 800,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2645437" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_77E3_NXG7BER005-2645437.html">Aspire V3-372-77E3 (NX.G7BER.005)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i7</td>
+					<td class="nb_td nb-cell-2">6500U</td>
+					<td class="nb_td nb-cell-3">2 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">256 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_77E3_NXG7BER005-2645437/offers/" class="c-green">от <b>1 900,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2719817" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_590J_NXG7BER013-2719817.html">Aspire V3-372-590J (NX.G7BER.013)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">128 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_590J_NXG7BER013-2719817/offers/" class="c-green">от <b>1 600,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2645415" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_70V9_NXG7AER005-2645415.html">Aspire V3-372-70V9 (NX.G7AER.005)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i7</td>
+					<td class="nb_td nb-cell-2">6500U</td>
+					<td class="nb_td nb-cell-3">2 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">256 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_70V9_NXG7AER005-2645415/offers/" class="c-green">от <b>1 760,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2645417" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_734K_NXG7AER015-2645417.html">Aspire V3-372-734K (NX.G7AER.015)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i7</td>
+					<td class="nb_td nb-cell-2">6500U</td>
+					<td class="nb_td nb-cell-3">2 500 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">256 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_734K_NXG7AER015-2645417/offers/" class="c-green">от <b>1 800,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2645435" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_578C_NXG7AER014-2645435.html">Aspire V3-372-578C (NX.G7AER.014)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">6 144 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_578C_NXG7AER014-2645435/offers/" class="c-green">от <b>1 300,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2643967" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_539F_NXG7AER013-2643967.html">Aspire V3-372-539F (NX.G7AER.013)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">6 144 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_539F_NXG7AER013-2643967/offers/" class="c-green">от <b>1 240,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2756565" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_593C_NXG7AER012-2756565.html">Aspire V3-372-593C (NX.G7AER.012)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">128 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_593C_NXG7AER012-2756565/offers/" class="c-green">от <b>1 380,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2669843" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_520B_NXG7BER011-2669843.html">Aspire V3-372-520B (NX.G7BER.011)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">6 144 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_520B_NXG7BER011-2669843/offers/" class="c-green">от <b>1 240,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2780269" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_55VW_NXG7BEP012-2780269.html">Aspire V3-372-55VW (NX.G7BEP.012)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">1 000 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_55VW_NXG7BEP012-2780269/offers/" class="c-green">от <b>1 190,99</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2645403" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_56QE_NXG7BER010-2645403.html">Aspire V3-372-56QE (NX.G7BER.010)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">6 144 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_56QE_NXG7BER010-2645403/offers/" class="c-green">от <b>1 300,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2633313" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP005-2633313.html">Aspire V3-372 (NX.G7BEP.005)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6267U</td>
+					<td class="nb_td nb-cell-3">2 900 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel Iris Graphics 550</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP005-2633313/offers/" class="c-green">от <b>1 170,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2633315" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP009-2633315.html">Aspire V3-372 (NX.G7BEP.009)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP009-2633315/offers/" class="c-green">от <b>1 053,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2644005" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_57S7_NXG7AEP022-2644005.html">Aspire V3-372-57S7 (NX.G7AEP.022)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_57S7_NXG7AEP022-2644005/offers/" class="c-green">от <b>1 080,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2697913" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7AEP016-2697913.html">Aspire V3-372 (NX.G7AEP.016)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">4405U</td>
+					<td class="nb_td nb-cell-3">2 100 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 510</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7AEP016-2697913/offers/" class="c-green">от <b>820,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2748177" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_5639_NXG7AER011-2748177.html">Aspire V3-372-5639 (NX.G7AER.011)</a></td>
+					<td class="nb_td nb-cell-1">Intel Core i5</td>
+					<td class="nb_td nb-cell-2">6200U</td>
+					<td class="nb_td nb-cell-3">2 300 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1920x1080</td>
+					<td class="nb_td nb-cell-6">8 192 ћб</td>
+					<td class="nb_td nb-cell-7">128 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 520</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_5639_NXG7AER011-2748177/offers/" class="c-green">от <b>1 265,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2770829" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_P5AP_NXG7AER021-2770829.html">Aspire V3-372-P5AP (NX.G7AER.021)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">4405U</td>
+					<td class="nb_td nb-cell-3">2 100 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">128 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 510</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_P5AP_NXG7AER021-2770829/offers/" class="c-green">от <b>880,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->
+					</td>
+				</tr>
+				<tr class="nb_row">
+					<th class="nb_td nb-check">
+						<label class="b-cbx">
+							<input class="cbx_inp" name="compareproductsids" data-productid="2790169" data-categoryid="5755" value="1" type="checkbox" />
+							<i></i>
+						</label><!-- // b-cbx -->
+					</th>
+					<td class="nb_td nb-model"><a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP011-2790169.html">Aspire V3-372 (NX.G7BEP.011)</a></td>
+					<td class="nb_td nb-cell-1">Intel Pentium</td>
+					<td class="nb_td nb-cell-2">4405U</td>
+					<td class="nb_td nb-cell-3">2 100 ћ√ц</td>
+					<td class="nb_td nb-cell-4">13.3''</td>
+					<td class="nb_td nb-cell-5">1366x768</td>
+					<td class="nb_td nb-cell-6">4 096 ћб</td>
+					<td class="nb_td nb-cell-7">500 √б</td>
+					<td class="nb_td nb-cell-8">Intel HD Graphics 510</td>
+					<td class="nb_td nb-price">
+						<div class="b-price">
+							<div class="price_item">
+								<a href="/mobile-notebooks/acer/Acer_Aspire_V3_372_NXG7BEP011-2790169/offers/" class="c-green">от <b>880,00</b>  б.р.</a>
+							</div>
+						</div><!-- // b-price -->

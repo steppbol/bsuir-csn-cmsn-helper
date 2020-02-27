@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="175.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bsuir.balashenka;.MainMenuController">
+    <children>
+      <ChoiceBox fx:id="stationAddressCB" layoutX="302.0" layoutY="41.0" prefHeight="25.0" prefWidth="60.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ChoiceBox>
+        <Text fx:id="inputComText" layoutX="18.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input port:" textOrigin="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <TextField fx:id="inputComPortTF" layoutX="18.0" layoutY="41.0" />
+        <Button fx:id="connectButton" layoutX="18.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="347.0" text="Connect" />
+      <Text layoutX="178.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Station address:" textOrigin="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="outputComPortTF" layoutX="18.0" layoutY="92.0" />
+      <Text fx:id="outputComText" layoutX="18.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Output port:" textOrigin="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+        <CheckBox fx:id="monitorCheckBox" layoutX="178.0" layoutY="92.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Monitor">
+            <font>
+                <Font size="16.0" />
+            </font></CheckBox>
+    </children>
+</AnchorPane>

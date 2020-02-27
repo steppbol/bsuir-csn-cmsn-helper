@@ -1,0 +1,160 @@
+Flow report for lab2
+Mon Sep 24 18:50:56 2018
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Flow Summary                                                            ;
++-------------------------------+-----------------------------------------+
+; Flow Status                   ; Successful - Mon Sep 24 18:50:56 2018   ;
+; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
+; Revision Name                 ; lab2                                    ;
+; Top-level Entity Name         ; FINAL                                   ;
+; Family                        ; Stratix II                              ;
+; Met timing requirements       ; No                                      ;
+; Logic utilization             ; < 1 %                                   ;
+;     Combinational ALUTs       ; 46 / 12,480 ( < 1 % )                   ;
+;     Dedicated logic registers ; 19 / 12,480 ( < 1 % )                   ;
+; Total registers               ; 19                                      ;
+; Total pins                    ; 27 / 343 ( 8 % )                        ;
+; Total virtual pins            ; 0                                       ;
+; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
+; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
+; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
+; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
+; Device                        ; EP2S15F484C3                            ;
+; Timing Models                 ; Final                                   ;
++-------------------------------+-----------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/24/2018 18:50:34 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lab2                ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                   ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 31032341896467.153780423304560 ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ADD_SUB                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter0.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter0.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter0.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare0.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare0.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare0.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter3.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter3.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter3.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_add_sub0.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_add_sub0.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_add_sub0.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare2.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare2.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare2.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare3.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare3.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_compare3.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter4.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter4.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter4.inc               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter5.tdf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter5.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter5.inc               ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; FINAL       ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; FINAL       ; Top            ;
+; TOP_LEVEL_ENTITY                   ; FINAL                          ; lab2          ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+--------------------------------+---------------+-------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:07     ; 1.0                     ; 250 MB              ; 00:00:03                           ;
+; Fitter                  ; 00:00:06     ; 1.0                     ; 281 MB              ; 00:00:06                           ;
+; Assembler               ; 00:00:03     ; 1.0                     ; 248 MB              ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 178 MB              ; 00:00:01                           ;
+; Total                   ; 00:00:17     ; --                      ; --                  ; 00:00:12                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; DESKTOP-9QED2UC  ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                  ; DESKTOP-9QED2UC  ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler               ; DESKTOP-9QED2UC  ; Windows Vista ; 6.2        ; x86_64         ;
+; Classic Timing Analyzer ; DESKTOP-9QED2UC  ; Windows Vista ; 6.2        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lab2 -c lab2
+quartus_fit --read_settings_files=off --write_settings_files=off lab2 -c lab2
+quartus_asm --read_settings_files=off --write_settings_files=off lab2 -c lab2
+quartus_tan --read_settings_files=off --write_settings_files=off lab2 -c lab2 --timing_analysis_only
+
+
+

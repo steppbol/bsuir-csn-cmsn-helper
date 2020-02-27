@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bsuir.balashenka.controller.WindowController">
+    <children>
+        <LineChart fx:id="cosChart" prefHeight="235.0" prefWidth="420.0" title="cos(x)">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <LineChart fx:id="conChart" layoutY="230.0" prefHeight="235.0" prefWidth="420.0" title="Convolution">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <LineChart fx:id="conFftChart" layoutX="420.0" layoutY="230.0" prefHeight="235.0" prefWidth="420.0" title="Convolution with FFT">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <LineChart fx:id="corChart" layoutY="460.0" prefHeight="235.0" prefWidth="420.0" title="Correlation">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <LineChart fx:id="corFftChart" layoutX="420.0" layoutY="460.0" prefHeight="235.0" prefWidth="420.0" title="Correlation with FFT">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <LineChart fx:id="sinChart" layoutX="420.0" prefHeight="235.0" prefWidth="420.0" title="sin(3x)">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <Separator layoutX="25.0" layoutY="225.0" prefHeight="10.0" prefWidth="805.0" />
+        <Separator layoutX="23.0" layoutY="455.0" prefHeight="10.0" prefWidth="805.0" />
+    </children>
+</AnchorPane>

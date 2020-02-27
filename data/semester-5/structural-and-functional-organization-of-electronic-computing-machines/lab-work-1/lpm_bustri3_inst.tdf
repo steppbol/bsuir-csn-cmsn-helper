@@ -1,0 +1,9 @@
+(
+	tridata_sig[]
+) = lpm_bustri3	(
+	.data[] = data_sig[],
+	.enabledt = enabledt_sig
+)
+RETURNS (
+	.tridata[]
+);

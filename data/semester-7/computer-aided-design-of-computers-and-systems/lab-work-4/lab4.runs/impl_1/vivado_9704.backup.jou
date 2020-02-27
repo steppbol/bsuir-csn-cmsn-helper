@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  1 00:33:30 2019
+# Process ID: 9704
+# Current directory: D:/lab4/lab4.runs/impl_1
+# Command line: vivado.exe -log counter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source counter.tcl -notrace
+# Log file: D:/lab4/lab4.runs/impl_1/counter.vdi
+# Journal file: D:/lab4/lab4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source counter.tcl -notrace

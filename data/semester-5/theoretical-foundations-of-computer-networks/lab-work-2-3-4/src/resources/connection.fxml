@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="390.0" prefWidth="500.0" styleClass="background" stylesheets="@theme.css"
+            xmlns="http://javafx.com/javafx/8.0.111" fx:controller="com.bsuir.balashenka;.Controller">
+    <children>
+        <ComboBox fx:id="speedComboBox" layoutX="50.0" layoutY="10.0" prefHeight="15.0" prefWidth="100.0"
+                  promptText="Baud rate"/>
+        <Label fx:id="speedLabel" layoutX="10.0" layoutY="15.0" prefHeight="15.0" prefWidth="40.0" text="Speed:"/>
+        <TextArea fx:id="inputTextArea" layoutX="10.0" layoutY="45.0" prefHeight="120.0" prefWidth="480.0"
+                  promptText="Enter your text here..."/>
+        <TextArea fx:id="outputTextArea" editable="false" layoutX="10.0" layoutY="185.0" prefHeight="120.0"
+                  prefWidth="480.0" promptText="Message will shown here..."/>
+        <TextArea fx:id="debugTextArea" editable="false" layoutX="10.0" layoutY="325.0" prefHeight="50.0"
+                  prefWidth="480.0"/>
+    </children>
+</AnchorPane>

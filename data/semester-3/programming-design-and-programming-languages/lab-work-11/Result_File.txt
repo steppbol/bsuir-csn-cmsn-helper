@@ -1,0 +1,8 @@
+Result: 4.91
+Result: 105
+Result: 22
+Result: -4
+Result: 3
+Result: 0
+Result: 49.1
+Result: 9.89

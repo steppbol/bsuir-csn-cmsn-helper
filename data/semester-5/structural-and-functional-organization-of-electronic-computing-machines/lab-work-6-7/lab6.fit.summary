@@ -1,0 +1,17 @@
+Fitter Status : Successful - Sun Dec 02 21:44:00 2018
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : lab6
+Top-level Entity Name : cache
+Family : Stratix II
+Device : EP2S15F484C3
+Timing Models : Final
+Logic utilization : 5 %
+    Combinational ALUTs : 293 / 12,480 ( 2 % )
+    Dedicated logic registers : 321 / 12,480 ( 3 % )
+Total registers : 321
+Total pins : 101 / 343 ( 29 % )
+Total virtual pins : 0
+Total block memory bits : 4,096 / 419,328 ( < 1 % )
+DSP block 9-bit elements : 0 / 96 ( 0 % )
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 2 ( 0 % )

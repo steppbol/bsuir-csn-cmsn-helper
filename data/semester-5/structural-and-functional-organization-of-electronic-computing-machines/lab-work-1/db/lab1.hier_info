@@ -1,0 +1,11 @@
+|ShifterRegister
+reset <= inst62.DB_MAX_OUTPUT_PORT_TYPE
+step9 => inst31.IN0
+isCahced => inst41.IN1
+isCahced => inst29.IN1
+step2 => inst30.IN0
+clk => inst119.IN0
+step2out <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+step9out <= inst31.DB_MAX_OUTPUT_PORT_TYPE
+
+

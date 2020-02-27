@@ -1,0 +1,11 @@
+*.log
+*.iml
+*.jar
+.mvn/
+.idea/
+out/
+.idea_modules/
+client/target/
+client/client.iml
+server/target/
+server/server.iml

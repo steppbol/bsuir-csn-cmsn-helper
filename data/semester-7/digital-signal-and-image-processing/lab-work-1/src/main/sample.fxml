@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="700.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <items>
+                  <Button fx:id="openImageButton" mnemonicParsing="false" onAction="#openImageAction" text="Open" />
+                  <Button fx:id="filterImageButton" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#filterImageAction" text="Filter" />
+                  <Button mnemonicParsing="false" onAction="#saveImagesAction" text="Save" />
+                  <TextField fx:id="gMinTextField" promptText="G min" />
+                  <TextField fx:id="gMaxTextField" promptText="G max" />
+                  <Button mnemonicParsing="false" onAction="#makeContrastAction" text="Contrasting" />
+                  <Button layoutX="456.0" layoutY="10.0" mnemonicParsing="false" onAction="#returnFilteredImageAction" text="Return filtered image" />
+                  <Button layoutX="538.0" layoutY="10.0" mnemonicParsing="false" onAction="#resetImagesAction" text="Reset images" />
+               </items>
+            </ToolBar>
+            <HBox prefHeight="700.0" prefWidth="1000.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="700.0" prefWidth="450.0" vbarPolicy="ALWAYS" HBox.hgrow="ALWAYS">
+                     <content>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                                 <center>
+                                    <ImageView fx:id="sourceImageView" fitHeight="300.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                                       <viewport>
+                                          <Rectangle2D />
+                                       </viewport></ImageView>
+                                 </center>
+                                 <top>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Original" BorderPane.alignment="CENTER" />
+                                 </top>
+                              </BorderPane>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                                 <center>
+                                    <ImageView fx:id="filteredImageView" fitHeight="300.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+                                 </center>
+                                 <top>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Filtered" BorderPane.alignment="CENTER" />
+                                 </top>
+                              </BorderPane>
+                              <BorderPane layoutX="10.0" layoutY="326.0" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                                 <center>
+                                    <ImageView fx:id="contrastedImageView" fitHeight="300.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+                                 </center>
+                                 <top>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Contrasted" BorderPane.alignment="CENTER" />
+                                 </top>
+                              </BorderPane>
+                              <BorderPane layoutX="10.0" layoutY="642.0" prefHeight="200.0" prefWidth="200.0">
+                                 <center>
+                                    <ImageView fx:id="returnFilteredImageView" fitHeight="300.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+                                 </center>
+                                 <top>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Return filtered image" BorderPane.alignment="CENTER" />
+                                 </top>
+                              </BorderPane>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" prefHeight="700.0" prefWidth="550.0" vbarPolicy="ALWAYS" HBox.hgrow="ALWAYS">
+                     <content>
+                        <VBox alignment="TOP_CENTER" minWidth="0.0" prefHeight="700.0" prefWidth="550.0">
+                           <children>
+                              <BarChart fx:id="originalBarChart" barGap="0.0" categoryGap="0.0" horizontalGridLinesVisible="false" legendVisible="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" title="Original" verticalGridLinesVisible="false" VBox.vgrow="ALWAYS">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                              <BarChart fx:id="filteredBarChart" barGap="0.0" categoryGap="0.0" horizontalGridLinesVisible="false" layoutX="28.0" layoutY="10.0" legendVisible="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" title="Filtered" verticalGridLinesVisible="false" VBox.vgrow="ALWAYS">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                              <BarChart fx:id="contrastedBarChart" barGap="0.0" categoryGap="0.0" horizontalGridLinesVisible="false" layoutX="28.0" layoutY="310.0" legendVisible="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" title="Contrasted" verticalGridLinesVisible="false" VBox.vgrow="ALWAYS">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                              <BarChart fx:id="returnFilteredBarChart" barGap="0.0" categoryGap="0.0" horizontalGridLinesVisible="false" layoutX="10.0" layoutY="610.0" legendVisible="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" title="Return filtered" verticalGridLinesVisible="false">
+                                 <xAxis>
+                                    <CategoryAxis side="BOTTOM" />
+                                 </xAxis>
+                                 <yAxis>
+                                    <NumberAxis side="LEFT" />
+                                 </yAxis>
+                              </BarChart>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

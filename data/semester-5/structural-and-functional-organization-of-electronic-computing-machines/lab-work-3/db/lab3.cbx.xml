@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|BUSMUX:inst8|lpm_mux:$00000" CBX_FILE_NAME="mux_snc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_add_sub0:inst17|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_beh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_add_sub1:inst5|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_fmh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_compare3:inst6|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_i8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_counter2:inst26|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_s3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_ram_dq0:inst37|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_nkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_rom0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4751.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|test:inst40|lpm_counter3:inst1|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_q3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|test:inst40|lpm_decode0:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|lpm_counter0:inst18|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_04i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|test:inst40|lpm_counter1:inst22|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_q3i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MAIN|test:inst40|lpm_mux0:inst21|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vnc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

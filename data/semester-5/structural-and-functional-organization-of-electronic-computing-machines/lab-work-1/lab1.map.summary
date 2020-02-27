@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Fri Dec 14 08:27:34 2018
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : lab1
+Top-level Entity Name : ShifterRegister
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 3
+    Dedicated logic registers : 1
+Total registers : 1
+Total pins : 7
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

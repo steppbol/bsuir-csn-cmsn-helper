@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1060.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bsuir.balashenka.controller.InterfaceController">
+    <children>
+
+        <Button fx:id="createGraphicButton" layoutX="55.0" layoutY="381.0" mnemonicParsing="false" text="CreateGraphic" />
+
+        <LineChart fx:id="firstLineChart" layoutX="15.0" layoutY="20.0" prefHeight="300.0" prefWidth="330.0">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+
+        <LineChart fx:id="secondLineChart" layoutX="360.0" layoutY="20.0" prefHeight="300.0" prefWidth="330.0">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+
+        <Label fx:id="discreteCalculationsLabel" layoutX="175.0" layoutY="320.0" />
+
+        <LineChart fx:id="thirdLineChart" layoutX="360.0" layoutY="340.0" prefHeight="300.0" prefWidth="330.0">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+
+        <Label fx:id="fastCalculationsLabel" layoutX="175.0" layoutY="350.0" />
+        <LineChart fx:id="fourthLineChart" layoutX="705.0" layoutY="20.0" prefHeight="300.0" prefWidth="330.0">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+
+        <LineChart fx:id="fifthLineChart" layoutX="705.0" layoutY="340.0" prefHeight="300.0" prefWidth="330.0">
+            <xAxis>
+                <NumberAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+      <Separator layoutX="345.0" layoutY="15.0" orientation="VERTICAL" prefHeight="650.0" prefWidth="30.0" />
+      <Separator layoutX="690.0" layoutY="15.0" orientation="VERTICAL" prefHeight="650.0" prefWidth="30.0" />
+      <Label layoutX="55.0" layoutY="320.0" text="Discrete Calculations: " />
+      <Label layoutX="55.0" layoutY="350.0" text="Fast Calculations:" />
+
+    </children>
+</AnchorPane>
