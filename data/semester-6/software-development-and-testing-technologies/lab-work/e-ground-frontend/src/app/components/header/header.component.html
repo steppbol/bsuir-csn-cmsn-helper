@@ -1,0 +1,18 @@
+<mat-toolbar style="height: 8vh">
+  <button mat-button (click)="switchLanguage()" style="font-weight: 300; font-size: 20px"
+          class="switch-language-button"><div translate>ru/en</div></button>
+  <nav mat-tab-nav-bar class="nav-bar">
+    <a mat-tab-link class="category-link" *ngFor="let link of navLinks" [routerLink]="link.path"
+       routerLinkActive #rla="routerLinkActive" [active]="rla.isActive" translate>Catalog</a>
+  </nav>
+  <div *ngIf="!(currentUser | async)" class="sign-in-up">
+    <button mat-button (click)="openSingIn()" *ngIf="!(currentUser | async)"
+            style="font-size: 20px; font-weight: 300"><div translate>Sign in</div></button>
+    /
+    <button mat-button (click)="openSingUp()" style="font-size: 20px; font-weight: 300"><div translate>Sign up</div></button>
+  </div>
+  <div *ngIf="(currentUser | async)" class="sign-in-up">
+    <button mat-button (click)="logout()" style="font-weight: 300; font-size: 20px"><div translate>Logout</div>
+    </button>
+  </div>
+</mat-toolbar>

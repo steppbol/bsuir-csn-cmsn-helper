@@ -1,0 +1,21 @@
+<mat-card style="height: 100%; width: 100%">
+  <div class="image-loader">
+    <div class="spinner-image-upload" *ngIf="isHiddenImage; else loadedImage">
+      <mat-spinner mode="indeterminate" color="primary"></mat-spinner>
+    </div>
+    <input type="file" accept="image/*" id="chooseImage" (change)="selectFile($event)" style="display: none;">
+    <br>
+    <button mat-raised-button color="primary" onclick="document.getElementById('chooseImage').click()">
+      <div translate>Upload image</div>
+    </button>
+  </div>
+</mat-card>
+
+<ng-template #loadedImage>
+  <div class="img-size">
+    <img id="currentImage" style="max-width: 100%; max-height: 100%"
+         [src]="imageUrl"
+         onclick="document.getElementById('chooseImage').click()">
+  </div>
+</ng-template>
+

@@ -1,0 +1,43 @@
+<main>
+  <div class="spinner" *ngIf="isLoading | async;else account">
+    <mat-spinner mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+
+  <ng-template #account>
+    <div *ngIf="(user|async) !== null; else userNotFound">
+      <div class="user-info">
+        <div>
+          <mat-card class="image-wrapper">
+            <img class="profile-img"
+                 src="https://drive.google.com/uc?export=view&id={{(user | async)?.imageId}}"
+                 onError="this.src='assets/images/defaultImageForItem.jpg'"><img/>
+          </mat-card>
+        </div>
+        <div class="form-and-buttons">
+          <div class="form-wrapper">
+            <h1>{{ (user|async)?.firstName }} {{ (user|async)?.lastName }}</h1>
+            <h3>{{ 'Phone number' | translate : (user|async) }}</h3>
+            <h3>{{ 'Age' | translate : (user|async) }}</h3>
+          </div>
+          <div class="profile-buttons">
+            <div class="button-wrapper">
+              <button mat-raised-button color="primary" class="profile-but">
+                <div translate>Write message</div>
+              </button>
+            </div>
+            <div class="edit-button-wrapper">
+              <button mat-raised-button color="primary" routerLink="/account-edit/{{id}}" class="profile-but">
+                <div translate>Edit</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</main>
+
+<ng-template #userNotFound>
+  <h2 align="center" translate>No account</h2>
+</ng-template>

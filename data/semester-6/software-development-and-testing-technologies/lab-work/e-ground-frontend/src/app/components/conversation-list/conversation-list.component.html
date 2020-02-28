@@ -1,0 +1,38 @@
+<main class="conversation-list">
+  <div class="spinner">
+    <mat-spinner *ngIf="isLoading | async;else conversationList" mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+  <ng-template #conversationList>
+    <div style="width: 90%" *ngIf="(conversations | async)?.length !== 0; else empty">
+      <div *ngFor="let conversation of conversations | async">
+        <div *ngIf="conversation.conversationMessages?.length!==0">
+          <mat-card class="example-card" routerLink="/conversations/{{conversation.secondUser.id}}">
+            <mat-card-header>
+              <img mat-card-avatar class="full-size"
+                   src="https://drive.google.com/thumbnail?id={{conversation.secondUser.compressedImageId}}"
+                   onError="this.src='/assets/images/Person.jpg'">
+              <mat-card-title>
+                <a routerLink="/account/{{conversation.id}}">
+                  {{conversation.secondUser.firstName + ' ' + conversation.secondUser.lastName}}
+                </a>
+              </mat-card-title>
+              <p class="date-area">
+                {{conversation.conversationMessages[0].creationDate | date : 'MMM d, yyyy H:mm:SS'}}
+              </p>
+              <mat-card-subtitle>
+                <a *ngIf="(conversation.conversationMessages[0].senderId === (currentUser | async)?.id)">
+                  You:
+                </a>
+                {{conversation.conversationMessages[0].message}}
+              </mat-card-subtitle>
+            </mat-card-header>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</main>
+<ng-template #empty>
+  <h5 translate>No conversations</h5>
+</ng-template>

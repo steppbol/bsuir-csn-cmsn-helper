@@ -1,0 +1,25 @@
+main {
+  margin-left: 6%;
+  margin-right: 3%;
+}
+
+.about_project {
+  display: flex;
+  flex-flow: row;
+}
+.about_project h3{
+  margin-left: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+img {
+  margin-top: 20px;
+}
+

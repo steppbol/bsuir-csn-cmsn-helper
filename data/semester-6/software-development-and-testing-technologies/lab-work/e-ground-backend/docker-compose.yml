@@ -1,0 +1,94 @@
+version: "3.7"
+
+services:
+  catalog:
+    build:
+      context: .
+      dockerfile: catalog/Dockerfile
+    image: catalog:latest
+    container_name: catalog
+    depends_on:
+      - catalog-postgres
+    ports:
+      - 9091:8082
+    restart: on-failure
+
+  customer-management:
+    build:
+      context: .
+      dockerfile: customer-management/Dockerfile
+    image: customer-management:latest
+    container_name: customer-management
+    depends_on:
+      - customer-management-postgres
+    ports:
+      - 9092:8086
+    restart: on-failure
+
+  favourite-item-management:
+    build:
+      context: .
+      dockerfile: favourite-item-management/Dockerfile
+    image: favourite-item-management:latest
+    container_name: favourite-item-management
+    depends_on:
+      - favourite-item-management-postgres
+    ports:
+      - 9093:8083
+    restart: on-failure
+
+  processor:
+    build:
+      context: .
+      dockerfile: processor/Dockerfile
+    image: processor:latest
+    container_name: processor
+    environment:
+      - CATALOG_HOST=http://catalog
+      - CATALOG_PORT=8082
+      - CUSTOMER_MANAGEMENT_HOST=http://customer-management
+      - CUSTOMER_MANAGEMENT_PORT=8086
+      - FAVOURITE_ITEM_MANAGEMENT_HOST=http://favourite-item-management
+      - FAVOURITE_ITEM_MANAGEMENT_PORT=8083
+    ports:
+      - 9090:8080
+    restart: on-failure
+
+  catalog-postgres:
+    image: postgres
+    container_name: catalog-postgres
+    environment:
+      POSTGRES_DB: catalog
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 6430:5432
+    restart: on-failure
+
+  customer-management-postgres:
+    image: postgres
+    container_name: customer-management-postgres
+    environment:
+      POSTGRES_DB: customer-management
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 6432:5432
+    restart: on-failure
+
+  favourite-item-management-postgres:
+    image: postgres
+    container_name: favourite-item-management-postgres
+    environment:
+      POSTGRES_DB: favourite-item-management
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 6433:5432
+    restart: on-failure

@@ -1,0 +1,37 @@
+main {
+  margin: 60px;
+}
+
+.offer-page-info-carcass {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+
+.offer-page-carcass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.offer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.offer-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.offer-image-parameters {
+  display: flex;
+  justify-content: center;
+  background-color: #e3e5e8;
+  height: 400px;
+  width: 600px;
+}

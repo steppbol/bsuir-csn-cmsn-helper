@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  processor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: processor:latest
+    container_name: processor
+    environment:
+      - CATALOG_HOST=http://catalog
+      - CUSTOMER_MANAGEMENT_HOST=http://customer-management
+      - FAVOURITE_ITEM_MANAGEMENT_HOST=http://favourite-item-management
+    ports:
+      - 9090:8080
+    restart: on-failure

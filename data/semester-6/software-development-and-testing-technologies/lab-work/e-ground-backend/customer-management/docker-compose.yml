@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  customer-management:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: customer-management:latest
+    container_name: customer-management
+    depends_on:
+      - customer-management-postgres
+    ports:
+      - 9092:8086
+    restart: on-failure
+
+  customer-management-postgres:
+    image: postgres
+    container_name: customer-management-postgres
+    environment:
+      POSTGRES_DB: customer-management
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 6432:5432
+    restart: on-failure

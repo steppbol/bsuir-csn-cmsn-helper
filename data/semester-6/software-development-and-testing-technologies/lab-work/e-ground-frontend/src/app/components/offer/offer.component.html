@@ -1,0 +1,32 @@
+<main>
+  <div class="spinner">
+    <mat-spinner *ngIf="isSelected | async; else offerView" mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+  <ng-template #offerView>
+    <div class="offer-page-carcass" *ngIf="(offer|async) !== null; else offerNotFound">
+      <div class="offer-page-info-carcass">
+        <div class="offer-info">
+          <h1>{{(offer | async)?.name}}</h1>
+          <div class="offer-image">
+            <mat-card class="offer-image-parameters">
+              <img style="max-width:100%; max-height:100%;"
+                   src="https://drive.google.com/uc?export=view&id={{(offer | async)?.imageId}}"
+                   onError="this.src='assets/images/defaultImageForItem.jpg'"><img/>
+            </mat-card>
+          </div>
+          <h2>Cost: {{(offer | async)?.price}}$</h2>
+          <h3 style="margin-top: 10px" translate>Description</h3>
+          <p style="word-break: break-all">{{(offer | async)?.description}}</p>
+          <h3 style="margin-top: 10px" translate>Feedback</h3>
+          <app-offer-feedback style="width: 100%"></app-offer-feedback>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</main>
+
+<ng-template #offerNotFound>
+  <h2 align="center" translate>No offer</h2>
+</ng-template>
+

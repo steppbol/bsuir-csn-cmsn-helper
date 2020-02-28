@@ -1,0 +1,36 @@
+<main>
+  <div class="catalog-main">
+    <div class="catalog-search">
+      <app-catalog-search-toolbar style="width: 89%"></app-catalog-search-toolbar>
+    </div>
+    <div class="spinner">
+      <mat-spinner *ngIf="isLoading | async;else offers" mode="indeterminate" color="primary">
+      </mat-spinner>
+    </div>
+  </div>
+  <ng-template #offers>
+      <div class="offers-list" *ngIf="(offerList|async)?.length !== 0; else empty">
+        <div *ngFor="let offer of offerList | async">
+          <mat-card class="offer-card" routerLink="/offer/{{offer.id}}">
+            <div class="offer-card-content">
+              <div class="offer-card-img" >
+                <img mat-card-lg-image src="https://drive.google.com/thumbnail?id={{offer.compressedImageId}}"
+                     onError="this.src='assets/images/defaultImageForItem.jpg'">
+              </div>
+              <div class="offer-card-text">
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <p style="color: black; font-weight: 400" translate>{{ 'offerName' | translate: offer }}</p>
+                  <p><b style="color: black; font-weight: 400" translate>{{ 'offerCost' | translate: offer  }}</b></p>
+                </div>
+                <span style="color: black; font-weight: 400" translate>{{'offerCategory' | translate: offer}}</span>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+  </ng-template>
+</main>
+
+<ng-template #empty>
+  <h5 translate>No offers</h5>
+</ng-template>

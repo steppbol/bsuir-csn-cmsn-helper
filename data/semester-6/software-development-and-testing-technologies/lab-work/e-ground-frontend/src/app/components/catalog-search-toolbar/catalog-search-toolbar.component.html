@@ -1,0 +1,10 @@
+<mat-toolbar class="catalog-toolbar">
+  <mat-form-field class="catalog-search-field">
+    <textarea class="text-area-input" matInput
+              cdkTextareaAutosize="false"
+              maxlength="50" #inputArea
+              [value]="(searchParams | async)">
+    </textarea>
+  </mat-form-field>
+  <button mat-raised-button class="catalog-search-button" (click)="search(inputArea.value)"><div translate>Search</div></button>
+</mat-toolbar>

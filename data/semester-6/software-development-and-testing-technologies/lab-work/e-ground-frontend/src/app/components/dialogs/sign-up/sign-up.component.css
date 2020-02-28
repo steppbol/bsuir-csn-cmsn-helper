@@ -1,0 +1,26 @@
+mat-form-field {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+.marginLeftFromRadio1{
+  margin-left: 20px;
+}
+
+.edit-user-controls {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+span:focus {
+  outline:none;
+}
+button:focus{
+  outline:none;
+}

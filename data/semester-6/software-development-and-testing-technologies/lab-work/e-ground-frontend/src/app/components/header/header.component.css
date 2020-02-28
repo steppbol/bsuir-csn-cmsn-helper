@@ -1,0 +1,61 @@
+.fill-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.category-link {
+  color: black;
+  height: 68px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.nav-bar {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  margin-left: auto;
+  margin-right: auto
+}
+
+.nav-bar a:hover {background:  #4682B4; color: #fff;}
+
+mat-toolbar{
+  background-color: #D3D3D3;
+}
+
+.first-header{
+  padding-left: 25%;
+
+}
+
+.switch-language-button {
+  background: #D3D3D3;
+  color: black;
+}
+
+a {
+  color: black;
+  padding: 20px 40px;
+}
+
+img {
+  height: 50px;
+  width: 80px;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+.sign-in-up {
+  display: block; /* смещает только блоки */
+  margin-left: auto;
+}

@@ -1,0 +1,7 @@
+<mat-toolbar class="footer">
+  <nav mat-tab-nav-bar class="nav-bar">
+    <a mat-tab-link class="about-link" *ngFor="let link of navLinks" [routerLink]="link.path"
+       routerLinkActive #rla="routerLinkActive" [active]="rla.isActive" translate>About</a>
+  </nav>
+  <p class="logo"> e-Ground </p>
+</mat-toolbar>

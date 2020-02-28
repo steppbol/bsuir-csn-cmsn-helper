@@ -1,0 +1,56 @@
+<main>
+  <div class="spinner" *ngIf="isLoading | async; else accountTemplate">
+    <mat-spinner mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+
+  <ng-template #accountTemplate>
+    <div class="flex-wrapper">
+      <div class="account-edit">
+        <app-image-upload class="image-edit"
+                          (valueChange)="getImageAsString($event)"
+                          [defaultImage]=""
+                          [onErrorImage]="'/src/assets/images/defaultImageForOffer.png'">
+        </app-image-upload>
+        <div class="form-wrapper">
+          <form novalidate [formGroup]="accountForm" class="profile-form">
+            <mat-form-field class="example-full-width">
+              <input matInput formControlName="firstName" placeholder="firstName"
+                     value="{{accountForm.get('firstName').value}}">
+              <mat-error
+                *ngIf="accountForm.get('firstName').hasError('required') && accountForm.get('firstName').touched">
+                This field is required
+              </mat-error>
+              <mat-error *ngIf="accountForm.get('firstName').hasError('maxlength')">First name must be less than 35
+                characters
+              </mat-error>
+              <mat-error *ngIf="accountForm.get('firstName').hasError('pattern')">Invalid symbol</mat-error>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <input matInput formControlName="lastName" placeholder="Last name"
+                     value="{{accountForm.get('lastName').value}}">
+              <mat-error *ngIf="accountForm.get('lastName').hasError('maxlength')">Last name must be less than 35
+                characters
+              </mat-error>
+              <mat-error *ngIf="accountForm.get('lastName').hasError('pattern')">Invalid symbol</mat-error>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <input matInput formControlName="age" placeholder="Age" value="{{accountForm.get('age').value}}">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+              <input matInput formControlName="phoneNumber" placeholder="Phone Number"
+                     value="{{accountForm.get('phoneNumber').value}}">
+            </mat-form-field>
+          </form>
+          <div class="button-wrapper">
+            <button mat-raised-button color="primary" type="submit" [disabled]="accountForm.invalid"
+                    (click)="updateUser(accountForm)"><div translate>Save</div>
+            </button>
+            <button mat-raised-button color="primary" routerLink="/account/{{userId}}" (click)="goBack()">
+              <div translate>Cancel</div></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</main>

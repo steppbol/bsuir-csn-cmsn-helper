@@ -1,0 +1,25 @@
+<mat-sidenav-container class="example-container">
+  <!--<mat-sidenav #sidenav mode="side" *ngIf="selectCurrentUser|async" [(opened)]="opened">-->
+  <mat-sidenav #sidenav mode="side">
+    <ng-template [ngIf]="(opened|async)">
+      <p class="side-content"><a routerLink="/account/{{ (currentUser | async)?.id }}" translate>Account</a></p>
+      <mat-divider></mat-divider>
+      <p class="side-content"><a routerLink="/offer-edit" translate>Create offer</a></p>
+      <mat-divider></mat-divider>
+      <p class="side-content"><a routerLink="/conversations" translate>Conversations</a></p>
+      <mat-divider></mat-divider>
+      <p class="side-content">
+        <button mat-button (click)="close()" style="font-size: 15px"><div translate>Hide</div></button>
+      </p>
+    </ng-template>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <button style="height: 50px;" mat-button [ngClass]="((opened | async) || !(currentUser | async)) ? 'absolutPositionHideButton': 'absolutPositionButton'"
+            (click)="open()">
+      <mat-icon svgIcon="thumbs-up" style="display: flex; justify-content: center;">menu</mat-icon>
+    </button>
+    <ng-content></ng-content>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

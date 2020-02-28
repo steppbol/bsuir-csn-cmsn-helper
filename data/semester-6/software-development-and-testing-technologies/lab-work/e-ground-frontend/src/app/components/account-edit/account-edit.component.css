@@ -1,0 +1,35 @@
+.profile-form {
+  /*min-width: 200px;
+  max-width: 300px;*/
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-edit {
+  padding-left: 50px;
+  width: 400px;
+  height: 350px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+}
+
+/*.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}*/
+
+.account-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}

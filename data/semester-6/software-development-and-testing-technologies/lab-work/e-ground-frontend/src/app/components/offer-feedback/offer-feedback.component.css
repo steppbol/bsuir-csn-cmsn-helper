@@ -1,0 +1,21 @@
+img {
+  border-radius: 50%;
+}
+
+.full-size {
+  width: 80px;
+  height: 80px;
+}
+
+.comment-card {
+  height: 100px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.feedback-list {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}

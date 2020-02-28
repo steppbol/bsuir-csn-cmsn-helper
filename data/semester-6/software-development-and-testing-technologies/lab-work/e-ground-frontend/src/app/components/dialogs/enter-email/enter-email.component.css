@@ -1,0 +1,18 @@
+mat-form-field {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+.edit-user-controls {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+

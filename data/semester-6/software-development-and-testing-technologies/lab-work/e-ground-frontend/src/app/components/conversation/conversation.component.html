@@ -1,0 +1,50 @@
+<main class="conversation">
+  <div class="spinner">
+    <mat-spinner *ngIf="isLoading | async;else conversationFragment" mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+  <ng-template #conversationFragment>
+    <div class="main-conversation">
+      <mat-list class="mat-list">
+        <mat-list-item class="mat-list-item-word-wrap"
+                       *ngFor="let message of (currentConversation | async)?.conversationMessages">
+          <ng-container *ngTemplateOutlet="otherSender; context: message.senderId === (currentConversation | async)?.firstUser.id ?
+         {'user': (currentConversation | async)?.firstUser, message: message} :
+         {'user': (currentConversation | async)?.secondUser, message: message}">
+          </ng-container>
+        </mat-list-item>
+      </mat-list>
+      <div class="input-form">
+        <mat-form-field class="mat-form-field-input">
+          <textarea [(ngModel)]='defaultTextAreaValue' class="text-area-input" matInput placeholder="Input a message"
+                    maxlength="100"
+                    cdkTextareaAutosize="false" #inputArea
+                    (keydown)="onKey($event)">
+          </textarea>
+        </mat-form-field>
+        <button mat-raised-button class="send-button" (click)='sendMessage(inputArea.value)'>
+          <mat-icon matSuffix>send</mat-icon>
+        </button>
+      </div>
+    </div>
+  </ng-template>
+</main>
+
+<ng-template #otherSender let-user='user' let-message='message'>
+  <div class="mat-list-item-content">
+    <img matListAvatar class="full-size" src="https://drive.google.com/thumbnail?id={{user.compressedImageId}}"
+         onError="this.src='/assets/images/Person.jpg'">
+    <div class="mat-list-item-text-info">
+      <h6 mat-line>
+        {{user.firstName}} {{user.lastName}} {{message.creationDate | date : 'MMM d, yyyy H:mm:SS'}}
+      </h6>
+      <h4 mat-line>
+        {{message.message}}
+      </h4>
+    </div>
+  </div>
+</ng-template>
+<ng-template #senderImage let-imageId='imageId'>
+  <img matListAvatar class="full-size" src="https://drive.google.com/thumbnail?id={{imageId}}"
+       onError="this.src='/assets/images/Person.jpg'">
+</ng-template>

@@ -1,0 +1,43 @@
+<main class="feedback-list">
+  <div class="spinner" *ngIf="isLoading | async;else commentsList">
+    <mat-spinner mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+  <ng-template #commentsList>
+    <div style="display: flex; flex-direction: column;">
+      <div *ngIf="(comments | async) !== null && (comments | async)?.length !== 0; else empty">
+        <div *ngFor="let comment of comments | async">
+          <mat-card class="comment-card">
+            <mat-card-header>
+              <img mat-card-avatar class="full-size"
+                   src='../../../assets/images/Person.jpg'>
+              <mat-card-title>
+                <a routerLink="/account/{{comment.customerId}}">
+                  User
+                </a>
+              </mat-card-title>
+              <mat-card-subtitle>
+                {{comment.message}}
+              </mat-card-subtitle>
+            </mat-card-header>
+          </mat-card>
+        </div>
+      </div>
+      <div class="input-form">
+        <mat-form-field class="mat-form-field-input">
+          <textarea [(ngModel)]='defaultTextAreaValue' class="text-area-input" matInput placeholder="Input a message"
+                    maxlength="100"
+                    cdkTextareaAutosize="false" #inputArea>
+          </textarea>
+        </mat-form-field>
+        <button *ngIf="(user |async) !== null" mat-raised-button class="send-button"
+                (click)='sendMessage(inputArea.value)'>
+          <mat-icon matSuffix>send</mat-icon>
+        </button>
+      </div>
+    </div>
+  </ng-template>
+</main>
+<ng-template #empty>
+  <h4 translate>No comments</h4>
+</ng-template>

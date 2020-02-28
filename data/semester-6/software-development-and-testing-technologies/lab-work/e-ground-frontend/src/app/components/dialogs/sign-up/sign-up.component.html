@@ -1,0 +1,54 @@
+<h1 mat-dialog-title translate>Sign Up</h1>
+<form [formGroup]="registerForm">
+  <cdk-virtual-scroll-viewport style="height: 300px" itemSize="90">
+    <mat-form-field>
+      <input matInput maxlength="40" placeholder="First name" [formControlName]="'firstName'" maxLength="40">
+      <mat-error *ngIf="firstName.invalid">{{getErrorText('firstName')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput maxlength="40" placeholder="Last name" [formControlName]="'lastName'" maxLength="40">
+      <mat-error *ngIf="lastName.invalid">{{getErrorText('lastName')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput type="number" maxlength="3" placeholder="Age" [formControlName]="'age'" maxLength="3">
+      <mat-error *ngIf="age.invalid">{{getErrorText('age')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput maxlength="20" placeholder="Phone Number" [formControlName]="'phoneNumber'" maxLength="20">
+      <mat-error *ngIf="phoneNumber.invalid">{{getErrorText('phoneNumber')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput type="email" maxlength="40" placeholder="Email" [formControlName]="'email'" maxLength="40"
+             required>
+      <mat-error *ngIf="email.invalid">{{getErrorText('email')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput type="password" maxlength="20" placeholder="Password" [formControlName]="'password'"
+             maxLength="20" required>
+      <mat-error *ngIf="password.invalid">{{getErrorText('password')}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput type="password" maxlength="20" placeholder="Confirm password"
+             [formControlName]="'confirmPassword'" maxLength="20" required>
+      <mat-error *ngIf="confirmPassword.invalid">{{getErrorText('confirmPassword')}}</mat-error>
+    </mat-form-field>
+  </cdk-virtual-scroll-viewport>
+</form>
+
+<div class="edit-user-controls">
+  <button mat-button color="warn" (click)=onCancelClick()><div translate>Cancel</div></button>
+  <button mat-button color="primary" [disabled]="registerForm.invalid" (click)="onSubmit()">
+    <div translate>Register</div>
+  </button>
+  <mat-spinner *ngIf="loading" diameter="40" color="primary">
+  </mat-spinner>
+</div>
+
+<div *ngIf="error" class="alert alert-danger">{{error}}</div>
+

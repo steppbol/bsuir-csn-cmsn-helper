@@ -1,0 +1,22 @@
+server:
+  port: ${CATALOG_SERVER_PORT:8082}
+spring:
+  datasource:
+    url: ${CATALOG_DB_URL:jdbc:postgresql://localhost:5432/catalog}
+    username: ${CATALOG_DB_USERNAME:postgres}
+    password: ${CATALOG_DB_PASSWORD:1234}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+logging:
+  file: logs/production_app.log
+  pattern:
+    file: "%d %-5level [%thread] %logger{0}: %msg%n"
+    console: "%d %-5level [%thread] %logger{0}: %msg%n"
+  level:
+    com.bsuir.sdtt: DEBUG
+
+
+

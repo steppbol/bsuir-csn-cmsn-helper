@@ -1,0 +1,19 @@
+server:
+  port: ${FAVOURITE_ITEM_MANAGEMENT_SERVER_PORT:8083}
+spring:
+  datasource:
+    url: ${FAVOURITE_ITEM_MANAGEMENT_DB_URL:jdbc:postgresql://localhost:5432/favourite-item-management}
+    username: ${FAVOURITE_ITEM_MANAGEMENT_DB_USERNAME:postgres}
+    password: ${FAVOURITE_ITEM_MANAGEMENT_DB_PASSWORD:1234}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+logging:
+  file: logs/production_app.log
+  pattern:
+    file: "%d %-5level [%thread] %logger{0}: %msg%n"
+    console: "%d %-5level [%thread] %logger{0}: %msg%n"
+  level:
+    com.bsuir.sdtt: DEBUG

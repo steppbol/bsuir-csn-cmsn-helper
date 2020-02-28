@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~angular-notifier/styles.css";
+
+html, body { height: 100%; margin: 0; padding: 0; overflow: hidden}
+body {  font-family: Roboto, "Helvetica Neue", sans-serif;background-color: #fafafa  }
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

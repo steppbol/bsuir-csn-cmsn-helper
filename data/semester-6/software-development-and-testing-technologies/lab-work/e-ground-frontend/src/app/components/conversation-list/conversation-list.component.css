@@ -1,0 +1,26 @@
+img {
+  border-radius: 50%;
+}
+
+.full-size {
+  width: 80px;
+  height: 80px;
+}
+
+.example-card {
+  height: 100px;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.conversation-list {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.date-area {
+  margin-left: auto;
+  color: #787f7b;
+}

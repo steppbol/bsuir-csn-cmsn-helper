@@ -1,0 +1,5 @@
+memzone_create_file: open: No such file or directory
+dev_create_ram: mmap: No such file or directory
+RAM: unable to create device.
+C7200 'Ghost': incomplete initialization (no memory?)
+C7200 'Ghost': unable to initialize the platform hardware.

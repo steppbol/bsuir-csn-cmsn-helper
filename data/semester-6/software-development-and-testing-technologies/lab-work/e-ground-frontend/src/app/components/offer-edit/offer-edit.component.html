@@ -1,0 +1,44 @@
+<main class="offer-edit-main">
+  <div class="spinner">
+    <mat-spinner *ngIf="isSelected | async; else offerEdit" mode="indeterminate" color="primary">
+    </mat-spinner>
+  </div>
+  <ng-template #offerEdit>
+    <form [formGroup]="offerForm" class="form-wrapper">
+      <app-image-upload class="image-edit"
+                        (valueChange)="getImageAsString($event)"
+                        [defaultImage]=""
+                        [onErrorImage]="'../../../assets/images/defaultImageForOffer.png'">
+      </app-image-upload>
+      <div class="edit-form">
+        <mat-form-field>
+          <mat-label>Offer name</mat-label>
+          <input matInput required placeholder="Name" [formControlName]="'name'" maxlength="20">
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Category</mat-label>
+          <textarea matInput required placeholder="Category" [formControlName]="'category'"
+                    maxlength="15"
+                    cdkTextareaAutosize="false">
+        </textarea>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Description</mat-label>
+          <textarea matInput required placeholder="Description" [formControlName]="'description'"
+                    cdkTextareaAutosize
+                    maxlength="150"
+                    cdkAutosizeMinRows="5"
+                    cdkAutosizeMaxRows="5">
+
+        </textarea>
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput required placeholder="Cost" [formControlName]="'price'" maxlength="8">
+        </mat-form-field>
+        <button mat-raised-button class="btnControl" [disabled]="offerForm.invalid" (click)="createOffer()">
+          <div translate>Create</div>
+        </button>
+      </div>
+    </form>
+  </ng-template>
+</main>

@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  favourite-item-management:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: favourite-item-management:latest
+    container_name: favourite-item-management
+    depends_on:
+      - favourite-item-management-postgres
+    ports:
+      - 9093:8083
+    restart: on-failure
+
+  favourite-item-management-postgres:
+    image: postgres
+    container_name: favourite-item-management-postgres
+    environment:
+      POSTGRES_DB: favourite-item-management
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 6433:5432
+    restart: on-failure

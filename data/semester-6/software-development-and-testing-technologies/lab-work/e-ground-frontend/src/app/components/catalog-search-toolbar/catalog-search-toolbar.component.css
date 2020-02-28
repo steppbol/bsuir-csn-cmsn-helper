@@ -1,0 +1,18 @@
+.catalog-search-button {
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+.catalog-search-field {
+  width: 100%;
+}
+
+.text-area-input {
+  font-size: 12pt;
+}
+
+.catalog-toolbar {
+  display: flex;
+  flex-direction: row;
+}

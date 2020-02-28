@@ -1,0 +1,31 @@
+mat-form-field {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fill-space {
+  flex: 1 1 auto;
+}
+
+.edit-user-controls {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a{
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+span:focus {
+  outline:none;
+}
+button:focus{
+  outline:none;
+}
+

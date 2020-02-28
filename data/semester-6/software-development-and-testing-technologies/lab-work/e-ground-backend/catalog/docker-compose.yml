@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  catalog:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: catalog:latest
+    container_name: catalog
+    depends_on:
+      - catalog-postgres
+    ports:
+      - 9091:8082
+    restart: on-failure
+
+  catalog-postgres:
+    image: postgres
+    container_name: catalog-postgres
+    environment:
+      POSTGRES_DB: catalog
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 6430:5432
+    restart: on-failure

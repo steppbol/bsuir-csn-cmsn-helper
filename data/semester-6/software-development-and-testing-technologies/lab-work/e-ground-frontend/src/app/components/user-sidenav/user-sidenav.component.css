@@ -1,0 +1,56 @@
+.example-container {
+  height: 85vh;
+}
+
+.side-content {
+  text-align: center;
+}
+
+mat-sidenav{
+  background-color:  #778899;
+  color: white;
+  font-size: 15px;
+}
+.side-nav-text{
+
+}
+
+.absolutPositionButton{
+  outline: none;
+}
+
+.absolutPositionHideButton{
+  outline: none;
+  visibility: hidden;
+}
+
+p {
+  margin: 10px 10px 10px 5px;
+}
+
+a:visited{
+  color: white;
+}
+a{
+  color: white;
+}
+
+mat-sidenav-content::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  background-color: #F5F5F5;
+}
+
+mat-sidenav-content::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+mat-sidenav-content::-webkit-scrollbar-thumb
+{
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}

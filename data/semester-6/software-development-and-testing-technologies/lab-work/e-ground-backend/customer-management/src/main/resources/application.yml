@@ -1,0 +1,19 @@
+server:
+  port: ${CUSTOMER_MANAGEMENT_SERVER_PORT:8086}
+spring:
+  datasource:
+    url: ${CUSTOMER_MANAGEMENT_DB_URL:jdbc:postgresql://localhost:5432/customer-management}
+    username: ${CUSTOMER_MANAGEMENT_DB_USERNAME:postgres}
+    password: ${CUSTOMER_MANAGEMENT_DB_PASSWORD:1234}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+logging:
+  pattern:
+    file: "%d %-5level [%thread] %logger{0}: %msg%n"
+    console: "%d %-5level [%thread] %logger{0}: %msg%n"
+  level:
+    com.bsuir.sdtt: DEBUG
+  file: logs/production_app.log
