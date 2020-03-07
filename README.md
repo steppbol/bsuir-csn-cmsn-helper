@@ -1,7 +1,8 @@
-# 🏆 Belarusian State University of Informatics and Radioelectronics<br> Faculty of Computer Systems and Networks<br> Specialty of Computer Machines, Systems and Networks
+🏆
+# Belarusian State University of Informatics and Radioelectronics<br> Faculty of Computer Systems and Networks<br> Specialty of Computer Machines, Systems and Networks
 
 🎓 Note:
-This repository contains most of the laboratory work of the specialty Computing Machines. Not all of the works presented here are completely correct and may not correspond to your task. I hope that some of these works come in handy as an example.
+### This repository contains most of the laboratory work of the specialty Computing Machines. Not all of the works presented here are completely correct and may not correspond to your task. I hope that some of these works come in handy as an example.
 ---
 <details>
 <summary>📘 Semester 1</summary>
