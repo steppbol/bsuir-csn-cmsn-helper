@@ -6,15 +6,15 @@ This repository contains most of the laboratory work of the specialty Computing 
 <details>
 <summary>📘 Semester 1</summary>
 
-[✅**Основы алгоритмизации и программирования**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/fundamentals-of-algorithmization-and-programming)
-[❌**Белорусский язык. Культура речи**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/belarusian-language-culture-of-speech)
-[❌**Инженерная и компьютерная графика**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/computer-engineering-graphics)
-[❌**Иностранный язык**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/foreign-language)
-[❌**История**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/history)
-[❌**Математика**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/mathematics)
-[❌**Философия**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/philosophy)
-[❌**Физическая культура**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/physical-culture)
-[❌**Физика**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/physics)
+-[✅**Основы алгоритмизации и программирования**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/fundamentals-of-algorithmization-and-programming)
+-[❌**Белорусский язык. Культура речи**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/belarusian-language-culture-of-speech)
+-[❌**Инженерная и компьютерная графика**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/computer-engineering-graphics)
+-[❌**Иностранный язык**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/foreign-language)
+-[❌**История**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/history)
+-[❌**Математика**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/mathematics)
+-[❌**Философия**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/philosophy)
+-[❌**Физическая культура**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/physical-culture)
+-[❌**Физика**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-1/physics)
 
 </details>
 
