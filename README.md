@@ -90,7 +90,7 @@ This repository contains most of the laboratory work of the specialty Computing 
 <details>
 <summary>📘 Semester 7</summary>
 
-- [✅**Системное программное обеспечение вычислительных машин**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-7/system-software-for-local-computer-systems) [`Java`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=Java)
+- [✅**Системное программное обеспечение локальных компьютерных сетей**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-7/system-software-for-local-computer-systems) [`Java`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=Java)
 - [✅**Аппаратное обеспечение компьютерных сетей**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-7/computer-network-hardware) `Cisco Packet Tracer`
 - [✅**Цифровая обработка сигналов и изображений**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-7/digital-signal-and-image-processing) [`Java`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=Java) [`Python`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=Python)
 - [✅**Микропроцессорные средства и системы**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-7/microprocessor-systems-and-tools) [`C`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=C)
@@ -102,7 +102,7 @@ This repository contains most of the laboratory work of the specialty Computing 
 <details>
 <summary>📘 Semester 8</summary>
 
-- [✅**Системное программное обеспечение вычислительных машин**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-8/system-software-for-local-computer-systems) [`Python`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=Python)
+- [✅**Системное программное обеспечение локальных компьютерных сетей**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-8/system-software-for-local-computer-systems) [`Python`](https://github.com/steppbol/bsuir-csn-cmsn-helper/search?l=Python)
 - [❌**Системы хранения данных**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-8/data-storage-systems)
 - [❌**Контроль и диагностика средств вычислительной техники**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-8/monitoring-and-diagnostics-of-computer-equipment)
 - [❌**Маркетинг программных продуктов и услуг**](https://github.com/steppbol/bsuir-csn-cmsn-helper/tree/master/data/semester-8/software-product-and-service-marketing)
