@@ -1,7 +1,7 @@
 # Belarusian State University of Informatics and Radioelectronics<br> Faculty of Computer Systems and Networks<br> Specialty of Computer Machines, Systems and Networks
 
 🎓 Note:
-This repository contains most of the laboratory work of the specialty Computing Machines. Not all of the works presented here are completely correct and may not correspond to your task. I hope that some of these works come in handy as an example.
+This repository contains most of the laboratory work of the specialty Computing Machines. Not all of the works presented here are completely correct and may not correspond to your task. I hope that some of these works come in handy as an example.<br>
 <a href="https://codeclimate.com/github/steppbol/bsuir-csn-cmsn-helper/maintainability"><img src="https://api.codeclimate.com/v1/badges/28e837ab6e94f87641e0/maintainability" /></a> 
 ---
 <details>
