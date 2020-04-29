@@ -116,5 +116,5 @@ ___
 
 ## 📃Feedback
 
-- If you have any troubles - [**create issue**](https://github.com/steppbol/bsuir-csn-cmsn-helper/issues/new)
-- A typo or mistake was found, or is there something to offer? - [**create pull request**](https://github.com/steppbol/bsuir-csn-cmsn-helper/pulls)
+- if you have any troubles - [**create issue**](https://github.com/steppbol/bsuir-csn-cmsn-helper/issues/new)
+- a typo or mistake was found - [**create pull request**](https://github.com/steppbol/bsuir-csn-cmsn-helper/pulls)
